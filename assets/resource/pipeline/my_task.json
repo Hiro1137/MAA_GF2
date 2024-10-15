@@ -226,7 +226,7 @@
     "实兵.点击任意位置继续": {
         "recognition": "TemplateMatch",
         "template": "实兵.点击任意位置继续.png",
-        "recommended roi": [
+        "roi": [
             538,
             619,
             200,
