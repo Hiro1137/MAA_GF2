@@ -1,0 +1,167 @@
+{
+    "进入工会": {
+        "recognition": "TemplateMatch",
+        "template": "工会.png",
+        "roi": [
+            893,
+            594,
+            66,
+            68
+        ],
+        "action": "Click",
+        "next": [
+            "每日要务"
+        ]
+    },
+    "每日要务": {
+        "recognition": "TemplateMatch",
+        "template": "每日要务.png",
+        "roi": [
+            834,
+            592,
+            73,
+            67
+        ],
+        "action": "Click",
+        "next": [
+            "要务已完成",
+            "要务未完成"
+        ]
+    },
+    "要务已完成": {
+        "recognition": "TemplateMatch",
+        "template": "要务已完成.png",
+        "roi": [
+            940,
+            592,
+            177,
+            50
+        ],
+        "next": [
+            "关闭窗口1"
+        ]
+    },
+    "要务未完成": {
+        "recognition": "TemplateMatch",
+        "template": "进入要务.png",
+        "roi": [
+            865,
+            583,
+            332,
+            67
+        ],
+        "action": "Click",
+        "next": [
+            "工会.开始战斗"
+        ]
+    },
+    "工会.开始战斗": {
+        "recognition": "TemplateMatch",
+        "template": "开始战斗.png",
+        "roi": [
+            488,
+            610,
+            305,
+            60
+        ],
+        "action": "Click",
+        "next": [
+            "工会.开启自动战斗"
+        ]
+    },
+    "工会.开启自动战斗": {
+        "recognition": "TemplateMatch",
+        "template": "检测自动战斗.png",
+        "roi": [
+            1053,
+            498,
+            183,
+            64
+        ],
+        "action": "Click",
+        "target": [
+            1060,
+            16,
+            52,
+            44
+        ],
+        "pre_wait_freezes": 300000,
+        "next": [
+            "工会.结束战斗"
+        ]
+    },
+    "工会.结束战斗": {
+        "recognition": "TemplateMatch",
+        "template": "任务完成.png",
+        "roi": [
+            892,
+            79,
+            232,
+            78
+        ],
+        "action": "Click",
+        "target": [
+            912,
+            621,
+            191,
+            36
+        ],
+        "next": [
+            "要务已完成"
+        ]
+    },
+    "领取补给": {
+        "recognition": "TemplateMatch",
+        "template": "工会补给.png",
+        "roi": [
+            746,
+            592,
+            66,
+            64
+        ],
+        "action": "Click",
+        "next": [
+            "领取补给2",
+            "工会.返回主页2"
+        ]
+    },
+    "领取补给2": {
+        "recognition": "TemplateMatch",
+        "template": "领取工会补给.png",
+        "roi": [
+            907,
+            610,
+            317,
+            63
+        ],
+        "action": "Click",
+        "next": [
+            "工会.点击空白处关闭"
+        ]
+    },
+    "工会.点击空白处关闭": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "工会.返回主页2"
+        ]
+    },
+    "工会.返回主页2": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页2.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
+    }
+}

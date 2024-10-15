@@ -1,0 +1,251 @@
+{
+    "进入关卡选择": {
+        "recognition": "TemplateMatch",
+        "template": "战役推进.png",
+        "roi": [
+            991,
+            51,
+            255,
+            95
+        ],
+        "action": "Click",
+        "next": [
+            "模拟作战"
+        ]
+    },
+    "模拟作战": {
+        "recognition": "TemplateMatch",
+        "template": "模拟作战.png",
+        "roi": [
+            1081,
+            19,
+            122,
+            49
+        ],
+        "action": "Click",
+        "next": [
+            "实兵演习"
+        ]
+    },
+    "实兵演习": {
+        "recognition": "TemplateMatch",
+        "template": "实兵演习.png",
+        "roi": [
+            633,
+            98,
+            277,
+            519
+        ],
+        "action": "Click",
+        "next": [
+            "实兵.点击任意位置继续",
+            "实兵.进攻"
+        ]
+    },
+    "实兵.点击任意位置继续": {
+        "recognition": "TemplateMatch",
+        "template": "实兵.点击任意位置继续.png",
+        "roi": [
+            538,
+            619,
+            200,
+            58
+        ],
+        "action": "Click",
+        "next": [
+            "实兵.点击任意位置继续",
+            "实兵.进攻"
+        ]
+    },
+    "实兵.进攻": {
+        "recognition": "TemplateMatch",
+        "template": "实兵.进攻.png",
+        "roi": [
+            943,
+            623,
+            287,
+            77
+        ],
+        "action": "Click",
+        "next": [
+            "实兵.进攻选目标"
+        ]
+    },
+    "实兵.进攻选目标": {
+        "recognition": "TemplateMatch",
+        "template": "实兵.刷新.png",
+        "roi": [
+            1098,
+            640,
+            171,
+            60
+        ],
+        "action": "Click",
+        "target": [
+            38,
+            89,
+            201,
+            528
+        ],
+        "next": [
+            "实兵.进入战斗"
+        ]
+    },
+    "实兵.进入战斗": {
+        "recognition": "TemplateMatch",
+        "template": "实兵.进入战斗.png",
+        "roi": [
+            905,
+            523,
+            303,
+            71
+        ],
+        "action": "Click",
+        "next": [
+            "实兵.开始战斗",
+            "实兵.次数已用完"
+        ]
+    },
+    "实兵.开始战斗": {
+        "recognition": "TemplateMatch",
+        "template": "开始战斗.png",
+        "roi": [
+            488,
+            610,
+            305,
+            60
+        ],
+        "action": "Click",
+        "next": [
+            "实兵.开启自动战斗"
+        ]
+    },
+    "实兵.开启自动战斗": {
+        "recognition": "TemplateMatch",
+        "template": "检测自动战斗.png",
+        "roi": [
+            1053,
+            498,
+            183,
+            64
+        ],
+        "action": "Click",
+        "target": [
+            1060,
+            16,
+            52,
+            44
+        ],
+        "pre_wait_freezes": 100000,
+        "next": [
+            "实兵.结束战斗.失败"
+        ]
+    },
+    "实兵.结束战斗.失败": {
+        "recognition": "TemplateMatch",
+        "template": "对战失败.png",
+        "roi": [
+            540,
+            322,
+            199,
+            82
+        ],
+        "action": "Click",
+        "target": [
+            583,
+            618,
+            116,
+            40
+        ],
+        "next": [
+            "实兵.刷新"
+        ]
+    },
+    "实兵.次数已用完": {
+        "recognition": "TemplateMatch",
+        "template": "实兵.次数用完.png",
+        "roi": [
+            380,
+            301,
+            520,
+            92
+        ],
+        "action": "Click",
+        "target": [
+            517,
+            633,
+            288,
+            75
+        ],
+        "next": [
+            "实兵.次数已用完2"
+        ]
+    },
+    "实兵.刷新": {
+        "recognition": "TemplateMatch",
+        "template": "实兵.刷新.png",
+        "roi": [
+            1098,
+            640,
+            171,
+            60
+        ],
+        "action": "Click",
+        "next": [
+            "实兵.进攻选目标"
+        ]
+    },
+    "实兵.次数已用完2": {
+        "recognition": "TemplateMatch",
+        "template": "实兵.次数已用完2.png",
+        "roi": [
+            22,
+            16,
+            52,
+            58
+        ],
+        "action": "Click",
+        "next": [
+            "实兵.领奖励"
+        ]
+    },
+    "实兵.领奖励": {
+        "recognition": "TemplateMatch",
+        "template": "实兵奖励.png",
+        "roi": [
+            380,
+            588,
+            94,
+            108
+        ],
+        "action": "Click",
+        "next": [
+            "实兵.点击空白处关闭"
+        ]
+    },
+    "实兵.点击空白处关闭": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "实兵.返回主页"
+        ]
+    },
+    "实兵.返回主页": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页2.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
+    }
+}

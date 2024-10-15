@@ -1,0 +1,321 @@
+{
+    "选择扫荡次数": {
+        "action": "Swipe",
+        "begin": [
+            498,
+            389,
+            1,
+            1
+        ],
+        "end": [
+            1259,
+            396,
+            1,
+            1
+        ],
+        "next": [
+            "开始扫荡"
+        ]
+    },
+    "开始扫荡": {
+        "recognition": "TemplateMatch",
+        "template": "开始扫荡.png",
+        "roi": [
+            667,
+            522,
+            293,
+            61
+        ],
+        "action": "Click",
+        "next": [
+            "点击空白处关闭3"
+        ]
+    },
+    "点击空白处关闭3": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "金条本返回"
+        ]
+    },
+    "进入关卡选择1": {
+        "recognition": "TemplateMatch",
+        "template": "战役推进.png",
+        "roi": [
+            991,
+            51,
+            255,
+            95
+        ],
+        "action": "Click",
+        "next": [
+            "补给作战"
+        ]
+    },
+    "补给作战": {
+        "recognition": "TemplateMatch",
+        "template": "补给作战.png",
+        "roi": [
+            901,
+            16,
+            114,
+            47
+        ],
+        "action": "Click",
+        "next": [
+            "刷金条"
+        ]
+    },
+    "刷金条": {
+        "recognition": "TemplateMatch",
+        "template": "深度搜索.png",
+        "roi": [
+            76,
+            158,
+            211,
+            252
+        ],
+        "action": "Swipe",
+        "begin": [
+            1084,
+            390,
+            1,
+            1
+        ],
+        "end": [
+            563,
+            389,
+            1,
+            1
+        ],
+        "next": [
+            "点击金条本"
+        ]
+    },
+    "点击金条本": {
+        "recognition": "TemplateMatch",
+        "template": "标准同调.png",
+        "roi": [
+            1004,
+            206,
+            197,
+            182
+        ],
+        "action": "Click",
+        "next": [
+            "金条本选关"
+        ]
+    },
+    "金条本选关": {
+        "action": "Swipe",
+        "begin": [
+            431,
+            636,
+            1,
+            1
+        ],
+        "end": [
+            429,
+            184,
+            1,
+            1
+        ],
+        "next": [
+            "金条本选关2"
+        ]
+    },
+    "金条本选关2": {
+        "recognition": "TemplateMatch",
+        "template": "金条本08.png",
+        "roi": [
+            41,
+            582,
+            372,
+            110
+        ],
+        "action": "Click",
+        "target": [
+            853,
+            629,
+            103,
+            46
+        ],
+        "next": [
+            "选择扫荡次数"
+        ]
+    },
+    "金条本返回": {
+        "recognition": "TemplateMatch",
+        "template": "金条本返回.png",
+        "roi": [
+            24,
+            15,
+            50,
+            58
+        ],
+        "action": "Click",
+        "next": [
+            "选择武器经验本"
+        ]
+    },
+    "选择武器经验本": {
+        "recognition": "TemplateMatch",
+        "template": "军备解析.png",
+        "roi": [
+            108,
+            159,
+            214,
+            246
+        ],
+        "action": "Click",
+        "next": [
+            "武器经验本选关"
+        ]
+    },
+    "武器经验本选关": {
+        "action": "Swipe",
+        "begin": [
+            431,
+            636,
+            1,
+            1
+        ],
+        "end": [
+            429,
+            184,
+            1,
+            1
+        ],
+        "next": [
+            "武器经验本选关2"
+        ]
+    },
+    "武器经验本选关2": {
+        "recognition": "TemplateMatch",
+        "template": "武器经验本11.png",
+        "roi": [
+            44,
+            584,
+            336,
+            107
+        ],
+        "action": "Click",
+        "target": [
+            861,
+            632,
+            86,
+            44
+        ],
+        "next": [
+            "选择扫荡次数2"
+        ]
+    },
+    "选择扫荡次数2": {
+        "action": "Swipe",
+        "begin": [
+            498,
+            389,
+            1,
+            1
+        ],
+        "end": [
+            1259,
+            396,
+            1,
+            1
+        ],
+        "next": [
+            "开始扫荡2"
+        ]
+    },
+    "开始扫荡2": {
+        "recognition": "TemplateMatch",
+        "template": "开始扫荡.png",
+        "roi": [
+            667,
+            522,
+            293,
+            61
+        ],
+        "action": "Click",
+        "next": [
+            "点击空白处关闭4"
+        ]
+    },
+    "点击空白处关闭4": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "武器经验本选关2",
+            "体力不足"
+        ]
+    },
+    "体力不足": {
+        "recognition": "TemplateMatch",
+        "template": "体力不足.png",
+        "roi": [
+            533,
+            119,
+            210,
+            67
+        ],
+        "action": "Click",
+        "target": [
+            397,
+            521,
+            164,
+            48
+        ],
+        "next": [
+            "体力不足2"
+        ]
+    },
+    "体力不足2": {
+        "recognition": "TemplateMatch",
+        "template": "体力不足2.png",
+        "roi": [
+            564,
+            114,
+            153,
+            61
+        ],
+        "action": "Click",
+        "target": [
+            432,
+            529,
+            108,
+            44
+        ],
+        "next": [
+            "体力不足返回主页"
+        ]
+    },
+    "体力不足返回主页": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页2.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click",
+        "next": [
+            "收委托"
+        ]
+    }
+}

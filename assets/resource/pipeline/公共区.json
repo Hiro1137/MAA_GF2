@@ -1,0 +1,138 @@
+{
+    "进入公共区": {
+        "recognition": "TemplateMatch",
+        "template": "公共区.png",
+        "roi": [
+            1123,
+            311,
+            95,
+            48
+        ],
+        "action": "Click",
+        "next": [
+            "调度室"
+        ]
+    },
+    "调度室": {
+        "recognition": "TemplateMatch",
+        "template": "调度室.png",
+        "roi": [
+            64,
+            268,
+            66,
+            68
+        ],
+        "action": "Click",
+        "next": [
+            "收调度"
+        ]
+    },
+    "收调度": {
+        "recognition": "TemplateMatch",
+        "template": "收调度.png",
+        "roi": [
+            948,
+            516,
+            292,
+            68
+        ],
+        "action": "Click",
+        "next": [
+            "再次派遣"
+        ]
+    },
+    "再次派遣": {
+        "recognition": "TemplateMatch",
+        "template": "调度再次派遣.png",
+        "roi": [
+            715,
+            605,
+            311,
+            70
+        ],
+        "action": "Click",
+        "next": [
+            "收派遣次数奖励"
+        ]
+    },
+    "收派遣次数奖励": {
+        "recognition": "TemplateMatch",
+        "template": "派遣次数奖励.png",
+        "action": "Click",
+        "next": [
+            "点击空白处关闭"
+        ]
+    },
+    "收体力": {
+        "recognition": "TemplateMatch",
+        "template": "调度收益.png",
+        "roi": [
+            718,
+            613,
+            132,
+            64
+        ],
+        "action": "Click",
+        "next": [
+            "点击取体力"
+        ]
+    },
+    "点击取体力": {
+        "recognition": "TemplateMatch",
+        "template": "取体力.png",
+        "roi": [
+            621,
+            589,
+            309,
+            71
+        ],
+        "action": "Click",
+        "next": [
+            "取资源"
+        ]
+    },
+    "取资源": {
+        "recognition": "TemplateMatch",
+        "template": "资源生产.png",
+        "roi": [
+            51,
+            179,
+            140,
+            70
+        ],
+        "action": "Click",
+        "next": [
+            "点击取资源"
+        ]
+    },
+    "点击取资源": {
+        "recognition": "TemplateMatch",
+        "template": "点击取资源.png",
+        "roi": [
+            808,
+            591,
+            302,
+            64
+        ],
+        "action": "Click",
+        "next": [
+            "点击空白处关闭2"
+        ]
+    },
+    "点击空白处关闭2": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "返回主页",
+            "返回主页2",
+            "打开邮箱"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "收委托": {
+        "recognition": "TemplateMatch",
+        "template": "委托.png",
+        "roi": [
+            809,
+            597,
+            55,
+            61
+        ],
+        "action": "Click",
+        "next": [
+            "收委托2"
+        ]
+    },
+    "收委托2": {
+        "recognition": "TemplateMatch",
+        "template": "收委托2.png",
+        "roi": [
+            925,
+            610,
+            255,
+            59
+        ],
+        "action": "Click"
+    }
+}
