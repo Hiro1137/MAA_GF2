@@ -446,3 +446,5 @@ install
 
 # Tools
 tools/ImageCropper/**/*.png
+
+MAAGF2/.nicegui
