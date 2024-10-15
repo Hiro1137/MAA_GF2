@@ -1,5 +1,179 @@
 {
-    "MyTask1": {},
-    "MyTask2": {},
-    "MyTask3": {}
+    "开始游戏": {
+        "recognition": "TemplateMatch",
+        "template": "开始.png",
+        "roi": [
+            583,
+            585,
+            114,
+            50
+        ],
+        "action": "Click",
+        "next": [
+            "打开邮箱",
+            "进入工会"
+        ]
+    },
+    "返回主页": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
+    },
+    "返回主页2": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页2.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
+    },
+    "关闭窗口1": {
+        "recognition": "TemplateMatch",
+        "template": "关闭窗口1.png",
+        "roi": [
+            1156,
+            84,
+            57,
+            59
+        ],
+        "action": "Click",
+        "next": [
+            "领取补给",
+            "返回主页",
+            "返回主页2"
+        ]
+    },
+    "打开邮箱": {
+        "recognition": "TemplateMatch",
+        "template": "邮件.png",
+        "roi": [
+            54,
+            415,
+            80,
+            84
+        ],
+        "action": "Click",
+        "next": [
+            "领取邮件"
+        ]
+    },
+    "领取邮件": {
+        "recognition": "TemplateMatch",
+        "template": "领取全部.png",
+        "roi": [
+            192,
+            632,
+            175,
+            73
+        ],
+        "action": "Click",
+        "next": [
+            "点击空白处关闭"
+        ]
+    },
+    "点击空白处关闭": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "返回主页",
+            "返回主页2"
+        ]
+    },
+    "进入工会": {
+        "recognition": "TemplateMatch",
+        "template": "工会.png",
+        "roi": [
+            893,
+            594,
+            66,
+            68
+        ],
+        "action": "Click",
+        "next": [
+            "每日要务"
+        ]
+    },
+    "每日要务": {
+        "recognition": "TemplateMatch",
+        "template": "每日要务.png",
+        "roi": [
+            834,
+            592,
+            73,
+            67
+        ],
+        "action": "Click",
+        "next": [
+            "要务已完成",
+            "要务未完成"
+        ]
+    },
+    "要务已完成": {
+        "recognition": "TemplateMatch",
+        "template": "要务已完成.png",
+        "roi": [
+            940,
+            592,
+            177,
+            50
+        ],
+        "next": [
+            "关闭窗口1"
+        ]
+    },
+    "要务未完成": {
+        "recognition": "OCR",
+        "expected": [
+            "每日要务已完成"
+        ],
+        "roi": [
+            863,
+            573,
+            340,
+            78
+        ],
+        "next": [
+            "关闭窗口1"
+        ]
+    },
+    "领取补给": {
+        "recognition": "TemplateMatch",
+        "template": "工会补给.png",
+        "roi": [
+            746,
+            592,
+            66,
+            64
+        ],
+        "action": "Click"
+    },
+    "进入关卡选择": {
+        "recognition": "OCR",
+        "expected": [
+            "战役推进"
+        ],
+        "roi": [
+            982,
+            56,
+            264,
+            78
+        ],
+        "action": "Click"
+    }
 }
