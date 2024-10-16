@@ -10,7 +10,8 @@
         ],
         "action": "Click",
         "next": [
-            "收委托2"
+            "收委托2",
+            "委托.返回主页"
         ]
     },
     "收委托2": {
@@ -21,6 +22,17 @@
             610,
             255,
             59
+        ],
+        "action": "Click"
+    },
+    "委托.返回主页": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
         ],
         "action": "Click"
     }
