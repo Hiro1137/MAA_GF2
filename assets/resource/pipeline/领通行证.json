@@ -1,0 +1,72 @@
+{
+    "进入季票界面": {
+        "recognition": "TemplateMatch",
+        "template": "季票图标.png",
+        "roi": [
+            624,
+            598,
+            58,
+            61
+        ],
+        "action": "Click",
+        "next": [
+            "沿途行动"
+        ]
+    },
+    "沿途行动": {
+        "recognition": "OCR",
+        "expected": [
+            "沿途行动"
+        ],
+        "roi": [
+            678,
+            16,
+            125,
+            43
+        ],
+        "action": "Click",
+        "next": [
+            "沿途行动一键领取"
+        ]
+    },
+    "沿途行动一键领取": {
+        "recognition": "OCR",
+        "expected": [
+            "一键领取"
+        ],
+        "roi": [
+            985,
+            642,
+            223,
+            49
+        ],
+        "action": "Click",
+        "next": [
+            "季票.返回主页"
+        ]
+    },
+    "季票.返回主页": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页2.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
+    },
+    "远航巡录": {
+        "recognition": "OCR",
+        "expected": [
+            "远航巡录"
+        ],
+        "roi": [
+            489,
+            19,
+            108,
+            35
+        ],
+        "action": "Click"
+    }
+}

@@ -46,8 +46,10 @@
         ]
     },
     "进入关卡选择1": {
-        "recognition": "TemplateMatch",
-        "template": "战役推进.png",
+        "recognition": "OCR",
+        "expected": [
+            "战役推进"
+        ],
         "roi": [
             991,
             51,
