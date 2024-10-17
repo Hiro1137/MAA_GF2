@@ -78,7 +78,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MaaXXX-win-${{ matrix.arch }}
+          name: MAAGF2-win-${{ matrix.arch }}
           path: "install"
 
   ubuntu:
@@ -110,7 +110,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MaaXXX-linux-${{ matrix.arch }}
+          name: MAAGF2-linux-${{ matrix.arch }}
           path: "install"
 
   macos:
@@ -142,7 +142,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MaaXXX-macos-${{ matrix.arch }}
+          name: MAAGF2-macos-${{ matrix.arch }}
           path: "install"
 
   android:
