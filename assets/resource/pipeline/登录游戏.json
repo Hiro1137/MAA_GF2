@@ -1,0 +1,52 @@
+{
+    "开始游戏": {
+        "recognition": "OCR",
+        "expected": [
+            "点击开始"
+        ],
+        "roi": [
+            566,
+            587,
+            144,
+            43
+        ],
+        "action": "Click",
+        "next": [
+            "登录时关闭活动界面"
+        ]
+    },
+    "登录时关闭活动界面": {
+        "recognition": "TemplateMatch",
+        "template": "登录时关闭活动界面.png",
+        "roi": [
+            395,
+            54,
+            438,
+            67
+        ],
+        "action": "Click",
+        "target": [
+            1165,
+            65,
+            59,
+            46
+        ],
+        "next": [
+            "登陆游戏.点击空白处关闭"
+        ]
+    },
+    "登陆游戏.点击空白处关闭": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "检测活动界面并关闭"
+        ]
+    }
+}

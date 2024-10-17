@@ -87,25 +87,67 @@
         ],
         "pre_wait_freezes": 300000,
         "next": [
+            "工会.正在战斗"
+        ]
+    },
+    "工会.正在战斗": {
+        "recognition": "TemplateMatch",
+        "template": "正在战斗.png",
+        "roi": [
+            1124,
+            566,
+            138,
+            134
+        ],
+        "action": "DoNothing",
+        "next": [
+            "工会.正在战斗2",
+            "工会.结束战斗"
+        ]
+    },
+    "工会.正在战斗2": {
+        "recognition": "TemplateMatch",
+        "template": "正在战斗.png",
+        "roi": [
+            1124,
+            566,
+            138,
+            134
+        ],
+        "action": "DoNothing",
+        "next": [
+            "工会.正在战斗",
             "工会.结束战斗"
         ]
     },
     "工会.结束战斗": {
-        "recognition": "TemplateMatch",
-        "template": "任务完成.png",
+        "recognition": "OCR",
+        "expected": [
+            "任务完成"
+        ],
         "roi": [
-            892,
+            884,
             79,
-            232,
-            78
+            249,
+            75
         ],
         "action": "Click",
-        "target": [
-            912,
-            621,
-            191,
-            36
+        "next": [
+            "工会.结束战斗2"
+        ]
+    },
+    "工会.结束战斗2": {
+        "recognition": "OCR",
+        "expected": [
+            "确认"
         ],
+        "roi": [
+            933,
+            620,
+            152,
+            39
+        ],
+        "action": "Click",
         "next": [
             "要务已完成"
         ]

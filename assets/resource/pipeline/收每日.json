@@ -23,7 +23,46 @@
             255,
             59
         ],
-        "action": "Click"
+        "action": "Click",
+        "next": [
+            "收委托3"
+        ]
+    },
+    "收委托3": {
+        "recognition": "OCR",
+        "expected": [
+            "80/80"
+        ],
+        "roi": [
+            155,
+            428,
+            94,
+            39
+        ],
+        "action": "Click",
+        "target": [
+            74,
+            611,
+            241,
+            45
+        ],
+        "next": [
+            "收委托.点击空白处关闭"
+        ]
+    },
+    "收委托.点击空白处关闭": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "委托.返回主页"
+        ]
     },
     "委托.返回主页": {
         "recognition": "TemplateMatch",

@@ -1,0 +1,49 @@
+{
+    "公共区": {
+        "recognition": "OCR",
+        "expected": [
+            "公共区"
+        ],
+        "roi": [
+            1121,
+            312,
+            107,
+            52
+        ],
+        "action": "Click",
+        "next": [
+            "休息室"
+        ]
+    },
+    "休息室": {
+        "recognition": "TemplateMatch",
+        "template": "休息室.png",
+        "roi": [
+            56,
+            150,
+            79,
+            74
+        ],
+        "action": "Click",
+        "next": [
+            "休息室.返回主页"
+        ]
+    },
+    "休息室.返回主页": {
+        "recognition": "TemplateMatch",
+        "template": "赠礼.png",
+        "roi": [
+            1064,
+            643,
+            56,
+            53
+        ],
+        "action": "Click",
+        "target": [
+            96,
+            19,
+            52,
+            47
+        ]
+    }
+}

@@ -73,12 +73,12 @@
     },
     "实兵.进攻选目标": {
         "recognition": "TemplateMatch",
-        "template": "实兵.刷新.png",
+        "template": "实兵.进攻选目标2.png",
         "roi": [
-            1098,
-            640,
-            171,
-            60
+            237,
+            78,
+            43,
+            125
         ],
         "action": "Click",
         "target": [
@@ -136,9 +136,78 @@
             52,
             44
         ],
-        "pre_wait_freezes": 100000,
         "next": [
+            "实兵.正在战斗"
+        ]
+    },
+    "实兵.正在战斗": {
+        "recognition": "TemplateMatch",
+        "template": "正在战斗.png",
+        "roi": [
+            1124,
+            566,
+            138,
+            134
+        ],
+        "action": "DoNothing",
+        "next": [
+            "实兵.正在战斗2",
+            "实兵.结束战斗.成功",
             "实兵.结束战斗.失败"
+        ]
+    },
+    "实兵.正在战斗2": {
+        "recognition": "TemplateMatch",
+        "template": "正在战斗.png",
+        "roi": [
+            1124,
+            566,
+            138,
+            134
+        ],
+        "action": "DoNothing",
+        "next": [
+            "实兵.正在战斗",
+            "实兵.结束战斗.成功",
+            "实兵.结束战斗.失败"
+        ]
+    },
+    "实兵.结束战斗.成功": {
+        "recognition": "OCR",
+        "expected": [
+            "任务完成"
+        ],
+        "roi": [
+            882,
+            82,
+            247,
+            72
+        ],
+        "action": "Click",
+        "target": [
+            348,
+            287,
+            439,
+            299
+        ],
+        "next": [
+            "实兵.结束战斗.成功2"
+        ]
+    },
+    "实兵.结束战斗.成功2": {
+        "recognition": "OCR",
+        "expected": [
+            "确认"
+        ],
+        "roi": [
+            967,
+            620,
+            93,
+            38
+        ],
+        "action": "Click",
+        "next": [
+            "实兵.刷新"
         ]
     },
     "实兵.结束战斗.失败": {

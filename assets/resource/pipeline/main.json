@@ -1,20 +1,4 @@
 {
-    "开始游戏": {
-        "recognition": "TemplateMatch",
-        "template": "开始.png",
-        "roi": [
-            583,
-            585,
-            114,
-            50
-        ],
-        "action": "Click",
-        "next": [
-            "打开邮箱",
-            "进入工会",
-            "点击空白处关闭"
-        ]
-    },
     "返回主页": {
         "recognition": "TemplateMatch",
         "template": "返回主页.png",
