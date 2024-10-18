@@ -27,14 +27,34 @@
             "entry": "工会"
         },
         {
-            "name": "选项任务",
+            "name": "进休息室",
+            "entry": "进入休息室"
+        },
+        {
+            "name": "实兵演习",
+            "entry": "实兵演习"
+        },
+        {
+            "name": "刷体力",
+            "entry": "刷体力"
+        },
+        {
+            "name": "收每日任务",
+            "entry": "收每日"
+        },
+        {
+            "name": "收通行证点数(不会领通行证奖励)",
+            "entry": "领通行证"
+        },
+        {
+            "name": "option_template",
             "entry": "MyTask2",
             "option": [
                 "任务选项1"
             ]
         },
         {
-            "name": "参数任务",
+            "name": "arg_template",
             "entry": "MyTask3",
             "option": [
                 "任务选项1"
