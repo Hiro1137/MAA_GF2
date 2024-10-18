@@ -1,6 +1,8 @@
-MAA for 少前2 
+<div align="center">
 
-WIP
+# MAA for 少前2 
+
+基于MAA框架的少前2半自动长草器
 
 ## 致谢
 
