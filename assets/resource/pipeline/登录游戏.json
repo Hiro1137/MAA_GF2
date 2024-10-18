@@ -1,4 +1,8 @@
 {
+    "打开少前2": {
+        "action": "StartApp",
+        "package": "package:com.Sunborn.SnqxExilium"
+    },
     "开始游戏": {
         "recognition": "OCR",
         "expected": [
