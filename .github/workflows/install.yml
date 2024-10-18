@@ -83,7 +83,7 @@ jobs:
 
   release:
     if: ${{ needs.meta.outputs.is_release == 'true' }}
-    needs: [meta, windows, ubuntu, macos, android]
+    needs: [meta, windows]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v4
