@@ -248,7 +248,8 @@
         ],
         "action": "Click",
         "next": [
-            "点击空白处关闭4"
+            "点击空白处关闭4",
+            "体力不足"
         ]
     },
     "点击空白处关闭4": {
@@ -267,8 +268,10 @@
         ]
     },
     "体力不足": {
-        "recognition": "TemplateMatch",
-        "template": "体力不足.png",
+        "recognition": "OCR",
+        "expected": [
+            "情报拼图补充"
+        ],
         "roi": [
             533,
             119,

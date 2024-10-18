@@ -29,15 +29,13 @@
         ]
     },
     "收委托3": {
-        "recognition": "OCR",
-        "expected": [
-            "80/80"
-        ],
+        "recognition": "TemplateMatch",
+        "template": "委托进度.png",
         "roi": [
-            155,
-            428,
-            94,
-            39
+            46,
+            172,
+            289,
+            259
         ],
         "action": "Click",
         "target": [

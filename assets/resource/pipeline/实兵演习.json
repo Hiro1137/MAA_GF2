@@ -14,8 +14,10 @@
         ]
     },
     "模拟作战": {
-        "recognition": "TemplateMatch",
-        "template": "模拟作战.png",
+        "recognition": "OCR",
+        "expected": [
+            "模拟作战"
+        ],
         "roi": [
             1081,
             19,
@@ -141,13 +143,15 @@
         ]
     },
     "实兵.正在战斗": {
-        "recognition": "TemplateMatch",
-        "template": "正在战斗.png",
+        "recognition": "OCR",
+        "expected": [
+            "击杀全部敌方"
+        ],
         "roi": [
-            1124,
-            566,
-            138,
-            134
+            38,
+            127,
+            182,
+            42
         ],
         "action": "DoNothing",
         "next": [
@@ -157,13 +161,15 @@
         ]
     },
     "实兵.正在战斗2": {
-        "recognition": "TemplateMatch",
-        "template": "正在战斗.png",
+        "recognition": "OCR",
+        "expected": [
+            "击杀全部敌方"
+        ],
         "roi": [
-            1124,
-            566,
-            138,
-            134
+            38,
+            127,
+            182,
+            42
         ],
         "action": "DoNothing",
         "next": [
