@@ -113,34 +113,6 @@
         "recognition": "TemplateMatch",
         "template": ""
     },
-    "打开邮箱": {
-        "recognition": "TemplateMatch",
-        "template": "邮件.png",
-        "roi": [
-            54,
-            415,
-            80,
-            84
-        ],
-        "action": "Click",
-        "next": [
-            "领取邮件"
-        ]
-    },
-    "领取邮件": {
-        "recognition": "TemplateMatch",
-        "template": "领取全部.png",
-        "roi": [
-            192,
-            632,
-            175,
-            73
-        ],
-        "action": "Click",
-        "next": [
-            "点击空白处关闭"
-        ]
-    },
     "点击空白处关闭": {
         "recognition": "TemplateMatch",
         "template": "点击空白处关闭.png",
