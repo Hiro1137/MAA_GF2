@@ -1,4 +1,20 @@
 {
+    "刷体力.进入关卡选择": {
+        "recognition": "OCR",
+        "expected": [
+            "战役推进"
+        ],
+        "roi": [
+            991,
+            51,
+            255,
+            95
+        ],
+        "action": "Click",
+        "next": [
+            "补给作战"
+        ]
+    },
     "选择扫荡次数": {
         "action": "Swipe",
         "begin": [
@@ -43,22 +59,6 @@
         "action": "Click",
         "next": [
             "金条本返回"
-        ]
-    },
-    "进入关卡选择1": {
-        "recognition": "OCR",
-        "expected": [
-            "战役推进"
-        ],
-        "roi": [
-            991,
-            51,
-            255,
-            95
-        ],
-        "action": "Click",
-        "next": [
-            "补给作战"
         ]
     },
     "补给作战": {
