@@ -29,16 +29,18 @@
         ]
     },
     "要务已完成": {
-        "recognition": "TemplateMatch",
-        "template": "要务已完成.png",
+        "recognition": "OCR",
+        "expected": [
+            "每日要务已完成"
+        ],
         "roi": [
-            940,
-            592,
-            177,
-            50
+            935,
+            594,
+            195,
+            46
         ],
         "next": [
-            "关闭窗口1"
+            "工会.关闭窗口1"
         ]
     },
     "要务未完成": {
@@ -91,13 +93,15 @@
         ]
     },
     "工会.正在战斗": {
-        "recognition": "TemplateMatch",
-        "template": "正在战斗.png",
+        "recognition": "OCR",
+        "expected": [
+            "击杀全部敌方"
+        ],
         "roi": [
-            1124,
-            566,
-            138,
-            134
+            38,
+            127,
+            182,
+            42
         ],
         "action": "DoNothing",
         "next": [
@@ -106,13 +110,15 @@
         ]
     },
     "工会.正在战斗2": {
-        "recognition": "TemplateMatch",
-        "template": "正在战斗.png",
+        "recognition": "OCR",
+        "expected": [
+            "击杀全部敌方"
+        ],
         "roi": [
-            1124,
-            566,
-            138,
-            134
+            38,
+            127,
+            182,
+            42
         ],
         "action": "DoNothing",
         "next": [
@@ -161,15 +167,20 @@
             66,
             64
         ],
+        "timeout": 5000,
         "action": "Click",
         "next": [
-            "领取补给2",
+            "领取补给2"
+        ],
+        "on_error": [
             "工会.返回主页2"
         ]
     },
     "领取补给2": {
-        "recognition": "TemplateMatch",
-        "template": "领取工会补给.png",
+        "recognition": "OCR",
+        "expected": [
+            "领取全部"
+        ],
         "roi": [
             907,
             610,
@@ -195,6 +206,20 @@
             "工会.返回主页2"
         ]
     },
+    "工会.关闭窗口1": {
+        "recognition": "TemplateMatch",
+        "template": "关闭窗口1.png",
+        "roi": [
+            1156,
+            84,
+            57,
+            59
+        ],
+        "action": "Click",
+        "next": [
+            "领取补给"
+        ]
+    },
     "工会.返回主页2": {
         "recognition": "TemplateMatch",
         "template": "返回主页2.png",
@@ -204,6 +229,12 @@
             70,
             72
         ],
-        "action": "Click"
+        "action": "Click",
+        "target": [
+            98,
+            22,
+            47,
+            43
+        ]
     }
 }
