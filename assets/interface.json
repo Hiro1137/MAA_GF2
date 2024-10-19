@@ -47,6 +47,10 @@
             "entry": "进入季票界面"
         },
         {
+            "name": "关闭游戏",
+            "entry": "关闭少前2"
+        },
+        {
             "name": "option_template",
             "entry": "MyTask2",
             "option": [
