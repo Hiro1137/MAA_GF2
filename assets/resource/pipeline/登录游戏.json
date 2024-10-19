@@ -1,10 +1,11 @@
 {
     "打开少前2": {
         "action": "StartApp",
-        "package": "package:com.Sunborn.SnqxExilium",
+        "package": "com.Sunborn.SnqxExilium",
         "next": [
             "开始游戏"
-        ]
+        ],
+        "timeout": 50000
     },
     "开始游戏": {
         "recognition": "OCR",

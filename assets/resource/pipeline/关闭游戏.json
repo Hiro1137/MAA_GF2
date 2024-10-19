@@ -1,0 +1,6 @@
+{
+    "关闭少前2": {
+        "action": "StopApp",
+        "package": "com.Sunborn.SnqxExilium"
+    }
+}
