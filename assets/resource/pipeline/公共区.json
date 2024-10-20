@@ -56,11 +56,64 @@
         ]
     },
     "收派遣次数奖励": {
-        "recognition": "TemplateMatch",
-        "template": "派遣次数奖励.png",
+        "recognition": "OCR",
+        "expected": [
+            "本周派遣次数"
+        ],
+        "roi": [
+            40,
+            486,
+            136,
+            36
+        ],
+        "action": "Click",
+        "target": [
+            398,
+            518,
+            59,
+            58
+        ],
+        "next": [
+            "点击领取派遣奖励",
+            "公共室.点击空白处关闭"
+        ]
+    },
+    "点击领取派遣奖励": {
+        "recognition": "OCR",
+        "expected": [
+            "领取"
+        ],
+        "roi": [
+            827,
+            159,
+            187,
+            437
+        ],
         "action": "Click",
         "next": [
-            "点击空白处关闭"
+            "公共室.点击空白处关闭"
+        ]
+    },
+    "关闭本周派遣收益界面": {
+        "recognition": "OCR",
+        "expected": [
+            "本周派遣收益"
+        ],
+        "roi": [
+            534,
+            97,
+            209,
+            45
+        ],
+        "action": "Click",
+        "target": [
+            1008,
+            106,
+            28,
+            29
+        ],
+        "next": [
+            "公共室.返回主页2"
         ]
     },
     "收体力": {
@@ -116,10 +169,10 @@
         ],
         "action": "Click",
         "next": [
-            "点击空白处关闭2"
+            "公共室.点击空白处关闭2"
         ]
     },
-    "点击空白处关闭2": {
+    "公共室.点击空白处关闭": {
         "recognition": "TemplateMatch",
         "template": "点击空白处关闭.png",
         "roi": [
@@ -130,9 +183,45 @@
         ],
         "action": "Click",
         "next": [
-            "返回主页",
-            "返回主页2",
-            "打开邮箱"
+            "关闭本周派遣收益界面",
+            "公共室.返回主页"
         ]
+    },
+    "公共室.点击空白处关闭2": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "公共室.返回主页",
+            "公共室.返回主页2"
+        ]
+    },
+    "公共室.返回主页": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
+    },
+    "公共室.返回主页2": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页2.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
     }
 }

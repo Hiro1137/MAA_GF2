@@ -318,9 +318,6 @@
             70,
             72
         ],
-        "action": "Click",
-        "next": [
-            "收委托"
-        ]
+        "action": "Click"
     }
 }
