@@ -41,6 +41,58 @@
         "action": "Click",
         "next": [
             "实兵.点击任意位置继续",
+            "实兵.进攻",
+            "实兵.每周结算"
+        ]
+    },
+    "实兵.每周结算": {
+        "recognition": "OCR",
+        "expected": [
+            "周期结算"
+        ],
+        "roi": [
+            551,
+            317,
+            177,
+            48
+        ],
+        "action": "Click",
+        "pre_wait_freezes": 2500,
+        "next": [
+            "实兵.每周结算2"
+        ]
+    },
+    "实兵.每周结算2": {
+        "recognition": "OCR",
+        "expected": [
+            "实兵演习"
+        ],
+        "roi": [
+            535,
+            314,
+            203,
+            69
+        ],
+        "action": "Click",
+        "pre_wait_freezes": 2500,
+        "next": [
+            "实兵.每周结算3"
+        ]
+    },
+    "实兵.每周结算3": {
+        "recognition": "OCR",
+        "expected": [
+            "您已重置为"
+        ],
+        "roi": [
+            445,
+            490,
+            384,
+            89
+        ],
+        "action": "Click",
+        "pre_wait_freezes": 2500,
+        "next": [
             "实兵.进攻"
         ]
     },
