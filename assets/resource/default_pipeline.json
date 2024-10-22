@@ -1,7 +1,0 @@
-{
-    "Default": {
-        "rate_limit": 1000,
-        "pre_delay": 800,
-        "post_delay": 800
-    }
-}
