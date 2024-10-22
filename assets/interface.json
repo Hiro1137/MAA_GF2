@@ -1,0 +1,91 @@
+{
+    "controller": [
+        {
+            "name": "安卓端",
+            "type": "Adb"
+        }
+    ],
+    "resource": [
+        {
+            "name": "官服",
+            "path": [
+                "{PROJECT_DIR}/resource"
+            ]
+        }
+    ],
+    "task": [
+        {
+            "name": "开始游戏",
+            "entry": "打开少前2"
+        },
+        {
+            "name": "收取邮件",
+            "entry": "邮件.检测主页"
+        },
+        {
+            "name": "工会",
+            "entry": "进入工会"
+        },
+        {
+            "name": "进休息室",
+            "entry": "公共区"
+        },
+        {
+            "name": "实兵演习",
+            "entry": "实兵.进入关卡选择"
+        },
+        {
+            "name": "刷体力",
+            "entry": "刷体力.进入关卡选择"
+        },
+        {
+            "name": "收每日任务",
+            "entry": "收委托"
+        },
+        {
+            "name": "收通行证点数(不会领通行证奖励)",
+            "entry": "进入季票界面"
+        },
+        {
+            "name": "关闭游戏",
+            "entry": "关闭少前2"
+        },
+        {
+            "name": "option_template",
+            "entry": "MyTask2",
+            "option": [
+                "任务选项1"
+            ]
+        },
+        {
+            "name": "arg_template",
+            "entry": "MyTask3",
+            "option": [
+                "任务选项1"
+            ],
+            "pipeline_override": {}
+        }
+    ],
+    "option": {
+        "任务选项1": {
+            "cases": [
+                {
+                    "name": "文本1",
+                    "pipeline_override": {
+                        "OcrTask": {
+                            "text": "文本1"
+                        }
+                    }
+                },
+                {
+                    "name": "文本2",
+                    "pipeline_override": {
+                        "OcrTask": {
+                            "text": "文本2"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
