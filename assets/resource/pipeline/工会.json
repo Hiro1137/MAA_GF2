@@ -72,13 +72,15 @@
         ]
     },
     "工会.开启自动战斗": {
-        "recognition": "TemplateMatch",
-        "template": "检测自动战斗.png",
+        "recognition": "OCR",
+        "expected": [
+            "击杀"
+        ],
         "roi": [
-            1053,
-            498,
-            183,
-            64
+            38,
+            127,
+            182,
+            42
         ],
         "action": "Click",
         "target": [
