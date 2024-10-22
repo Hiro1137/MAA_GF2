@@ -247,6 +247,7 @@
             61
         ],
         "action": "Click",
+        "post_wait_freezes": 2500,
         "next": [
             "点击空白处关闭4",
             "体力不足"
@@ -285,6 +286,7 @@
             164,
             48
         ],
+        "post_wait_freezes": 2500,
         "next": [
             "体力不足2"
         ]
@@ -305,6 +307,7 @@
             108,
             44
         ],
+        "post_wait_freezes": 2500,
         "next": [
             "体力不足返回主页"
         ]
