@@ -44,13 +44,15 @@
         ]
     },
     "登陆游戏.点击空白处关闭": {
-        "recognition": "TemplateMatch",
-        "template": "点击空白处关闭.png",
+        "recognition": "OCR",
+        "expected": [
+            "点击空白"
+        ],
         "roi": [
-            551,
-            599,
-            175,
-            56
+            543,
+            596,
+            193,
+            60
         ],
         "action": "Click",
         "next": [
