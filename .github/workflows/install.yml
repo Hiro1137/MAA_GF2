@@ -97,7 +97,7 @@ jobs:
       - name: Download MFAWPF
         uses: robinraju/release-downloader@v1
         with:
-          repository: Hiro1137/MFAWPF  
+          repository: SweetSmellFox/MFAWPF  
           filename: MFAWPF*
           latest: true  
           out-file-path: MFA
