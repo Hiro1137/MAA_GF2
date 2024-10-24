@@ -24,6 +24,7 @@
         ]
     },
     "登录时关闭活动界面": {
+        "post_wait_freezes": 2500,
         "recognition": "TemplateMatch",
         "template": "登录时关闭活动界面.png",
         "roi": [
