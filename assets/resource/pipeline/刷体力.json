@@ -134,13 +134,15 @@
         ]
     },
     "金条本选关2": {
-        "recognition": "TemplateMatch",
-        "template": "金条本08.png",
+        "recognition": "OCR",
+        "expected": [
+            "10"
+        ],
         "roi": [
-            41,
-            582,
-            372,
-            110
+            37,
+            230,
+            115,
+            463
         ],
         "action": "Click",
         "target": [

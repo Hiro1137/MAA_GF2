@@ -21,7 +21,8 @@
         "action": "Click",
         "next": [
             "登录时关闭活动界面"
-        ]
+        ],
+        "timeout": 50000
     },
     "登录时关闭活动界面": {
         "post_wait_freezes": 2500,
