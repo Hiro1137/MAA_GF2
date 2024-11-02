@@ -39,6 +39,7 @@
             519
         ],
         "action": "Click",
+        "post_wait_freezes": 2500,
         "next": [
             "实兵.进攻",
             "实兵.每周结算"
@@ -250,7 +251,7 @@
             439,
             299
         ],
-        "post_wait_freezes": 2500,
+        "post_wait_freezes": 4000,
         "next": [
             "实兵.结束战斗.成功2",
             "实兵.结束战斗.成功.晋升"
