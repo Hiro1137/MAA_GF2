@@ -42,39 +42,21 @@
         "post_wait_freezes": 2500,
         "next": [
             "实兵.进攻",
-            "实兵.每周结算"
+            "实兵.新周期"
         ]
     },
-    "实兵.每周结算": {
+    "实兵.新周期": {
         "recognition": "OCR",
         "expected": [
-            "周期结算"
+            "新周期"
         ],
         "roi": [
-            551,
-            317,
-            177,
-            48
+            585,
+            267,
+            106,
+            45
         ],
         "action": "Click",
-        "pre_wait_freezes": 2500,
-        "next": [
-            "实兵.每周结算2"
-        ]
-    },
-    "实兵.每周结算2": {
-        "recognition": "OCR",
-        "expected": [
-            "实兵演习"
-        ],
-        "roi": [
-            535,
-            314,
-            203,
-            69
-        ],
-        "action": "Click",
-        "pre_wait_freezes": 2500,
         "next": [
             "实兵.每周结算3"
         ]
