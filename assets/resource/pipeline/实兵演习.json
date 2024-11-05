@@ -295,13 +295,15 @@
         ]
     },
     "实兵.次数已用完": {
-        "recognition": "TemplateMatch",
-        "template": "实兵.次数用完.png",
+        "recognition": "OCR",
+        "expected": [
+            "进攻消耗"
+        ],
         "roi": [
-            380,
-            301,
-            520,
-            92
+            960,
+            483,
+            110,
+            35
         ],
         "action": "Click",
         "target": [
