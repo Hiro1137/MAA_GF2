@@ -1,0 +1,183 @@
+{
+    "boss.进入关卡选择": {
+        "recognition": "OCR",
+        "expected": [
+            "战役推进"
+        ],
+        "roi": [
+            991,
+            51,
+            255,
+            95
+        ],
+        "action": "Click",
+        "next": [
+            "boss.进入模拟作战"
+        ]
+    },
+    "boss.进入模拟作战": {
+        "recognition": "OCR",
+        "expected": [
+            "模拟作战"
+        ],
+        "roi": [
+            1079,
+            14,
+            123,
+            54
+        ],
+        "action": "Click",
+        "next": [
+            "boss.进入首领挑战"
+        ]
+    },
+    "boss.进入模拟作战2": {
+        "recognition": "TemplateMatch",
+        "template": "boss滑动判断.png",
+        "action": "Swipe",
+        "begin": [
+            364,
+            410,
+            1,
+            1
+        ],
+        "end": [
+            1215,
+            405,
+            1,
+            1
+        ]
+    },
+    "boss.进入首领挑战": {
+        "recognition": "OCR",
+        "expected": [
+            "首领挑战"
+        ],
+        "roi": [
+            346,
+            561,
+            250,
+            60
+        ],
+        "action": "Click",
+        "next": [
+            "boss.进入首领挑战2"
+        ]
+    },
+    "boss.进入首领挑战2": {
+        "recognition": "OCR",
+        "expected": [
+            "常规挑战"
+        ],
+        "roi": [
+            885,
+            22,
+            192,
+            53
+        ],
+        "action": "Click",
+        "next": [
+            "boss.点击自律"
+        ]
+    },
+    "boss.点击自律": {
+        "recognition": "OCR",
+        "expected": [
+            "自律"
+        ],
+        "roi": [
+            768,
+            619,
+            169,
+            68
+        ],
+        "action": "Click",
+        "next": [
+            "boss.拉满自律次数",
+            "boss.次数用完"
+        ]
+    },
+    "boss.拉满自律次数": {
+        "recognition": "OCR",
+        "expected": [
+            "自律准备"
+        ],
+        "roi": [
+            537,
+            116,
+            208,
+            58
+        ],
+        "action": "Swipe",
+        "begin": [
+            498,
+            388,
+            1,
+            1
+        ],
+        "end": [
+            1128,
+            398,
+            1,
+            1
+        ],
+        "next": [
+            "boss.开始作战"
+        ]
+    },
+    "boss.开始作战": {
+        "recognition": "OCR",
+        "expected": [
+            "确认"
+        ],
+        "roi": [
+            727,
+            527,
+            213,
+            52
+        ],
+        "action": "Click",
+        "next": [
+            "boss.点击空白处关闭"
+        ]
+    },
+    "boss.点击空白处关闭": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "boss.返回主页"
+        ]
+    },
+    "boss.次数用完": {
+        "recognition": "TemplateMatch",
+        "template": "boss.次数用完.png",
+        "roi": [
+            905,
+            414,
+            32,
+            32
+        ],
+        "action": "DoNothing",
+        "next": [
+            "boss.返回主页"
+        ]
+    },
+    "boss.返回主页": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
+    }
+}
