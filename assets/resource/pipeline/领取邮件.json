@@ -16,13 +16,15 @@
         ]
     },
     "打开导航": {
-        "recognition": "TemplateMatch",
-        "template": "导航图标.png",
+        "recognition": "OCR",
+        "expected": [
+            "战役推进"
+        ],
         "roi": [
+            992,
             50,
-            493,
-            88,
-            89
+            244,
+            86
         ],
         "action": "Click",
         "target": [
