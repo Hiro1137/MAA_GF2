@@ -2,24 +2,54 @@
     "打开少前2": {
         "action": "StartApp",
         "package": "com.Sunborn.SnqxExilium",
+        "timeout": 50000,
+        "next": [
+            "LOGO"
+        ]
+    },
+    "LOGO": {
+        "recognition": "TemplateMatch",
+        "template": "LOGO.png",
+        "roi": [
+            309,
+            193,
+            636,
+            343
+        ],
+        "timeout": 50000,
         "next": [
             "开始游戏"
-        ],
-        "timeout": 50000
+        ]
     },
     "开始游戏": {
         "recognition": "OCR",
         "expected": [
             "点击开始"
         ],
-        "timeout": 50000,
         "roi": [
             566,
             587,
             144,
             43
         ],
+        "timeout": 50000,
         "action": "Click",
+        "next": [
+            "开始游戏.加载中"
+        ]
+    },
+    "开始游戏.加载中": {
+        "recognition": "OCR",
+        "expected": [
+            "资源加载中"
+        ],
+        "roi": [
+            146,
+            567,
+            128,
+            42
+        ],
+        "timeout": 50000,
         "next": [
             "登录时关闭活动界面",
             "关闭周年庆典",
