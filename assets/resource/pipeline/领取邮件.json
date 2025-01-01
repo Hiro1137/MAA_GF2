@@ -33,6 +33,7 @@
             32,
             26
         ],
+        "post_wait_freezes": 1000,
         "next": [
             "打开邮箱",
             "邮件.检测主页"
@@ -54,17 +55,17 @@
         "recognition": "TemplateMatch",
         "template": "邮箱.png",
         "roi": [
-            811,
-            118,
-            64,
-            49
+            871,
+            119,
+            70,
+            52
         ],
         "action": "Click",
         "target": [
-            832,
-            137,
-            20,
-            15
+            899,
+            143,
+            12,
+            7
         ],
         "next": [
             "领取邮件"
