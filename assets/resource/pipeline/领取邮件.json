@@ -53,7 +53,7 @@
     },
     "打开邮箱": {
         "recognition": "TemplateMatch",
-        "template": "邮箱.png",
+        "template": "邮箱2.png",
         "roi": [
             750,
             122,
