@@ -55,18 +55,12 @@
         "recognition": "TemplateMatch",
         "template": "邮箱.png",
         "roi": [
-            871,
-            119,
-            70,
-            52
+            750,
+            122,
+            256,
+            48
         ],
         "action": "Click",
-        "target": [
-            899,
-            143,
-            12,
-            7
-        ],
         "next": [
             "领取邮件"
         ]
