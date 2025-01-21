@@ -1,5 +1,5 @@
 {
-    "公共区": {
+    "进入休息室": {
         "recognition": "OCR",
         "expected": [
             "公共区"

@@ -1,5 +1,5 @@
 {
-    "进入公共区": {
+    "公共区收菜": {
         "recognition": "TemplateMatch",
         "template": "公共区.png",
         "roi": [
