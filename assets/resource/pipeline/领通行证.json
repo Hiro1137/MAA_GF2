@@ -1,12 +1,14 @@
 {
     "进入季票界面": {
-        "recognition": "TemplateMatch",
-        "template": "季票图标.png",
+        "recognition": "OCR",
+        "expected": [
+            "巡录"
+        ],
         "roi": [
-            624,
-            598,
-            58,
-            61
+            520,
+            591,
+            443,
+            98
         ],
         "action": "Click",
         "next": [

@@ -1,12 +1,14 @@
 {
     "收委托": {
-        "recognition": "TemplateMatch",
-        "template": "委托.png",
+        "recognition": "OCR",
+        "expected": [
+            "委托"
+        ],
         "roi": [
-            809,
-            597,
-            55,
-            61
+            520,
+            591,
+            443,
+            98
         ],
         "action": "Click",
         "next": [
