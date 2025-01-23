@@ -450,3 +450,4 @@ tools/ImageCropper/**/*.png
 .nicegui/
 config/
 发版.bat
+删版.bat
