@@ -1,7 +1,9 @@
 {
     "公共区收菜": {
-        "recognition": "TemplateMatch",
-        "template": "公共区.png",
+        "recognition": "OCR",
+        "expected": [
+            "公共区"
+        ],
         "roi": [
             1123,
             311,
