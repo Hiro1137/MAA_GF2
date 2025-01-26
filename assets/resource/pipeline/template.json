@@ -1,5 +1,5 @@
 {
-    "返回主页.黑": {
+    "BacktoMain_Black": {
         "recognition": "TemplateMatch",
         "template": "返回主页.png",
         "roi": [
@@ -10,7 +10,7 @@
         ],
         "action": "Click"
     },
-    "返回主页.白": {
+    "BacktoMain_White": {
         "recognition": "TemplateMatch",
         "template": "返回主页2.png",
         "roi": [
@@ -21,9 +21,9 @@
         ],
         "action": "Click"
     },
-    "关闭窗口1": {
+    "Close_Windows_1": {
         "recognition": "TemplateMatch",
-        "template": "关闭窗口1.png",
+        "template": "Close_Windows_1.png",
         "roi": [
             1156,
             84,
@@ -32,12 +32,12 @@
         ],
         "action": "Click",
         "next": [
-            "领取补给",
-            "返回主页.黑",
-            "返回主页.白"
+            "Collect_Supply",
+            "BacktoMain_Black",
+            "BacktoMain_White"
         ]
     },
-    "检测活动界面并关闭": {
+    "Detect_Act_Page_Close": {
         "recognition": "TemplateMatch",
         "template": "活动界面.png",
         "roi": [
@@ -54,7 +54,7 @@
             36
         ]
     },
-    "开始战斗": {
+    "Start_Battle": {
         "recognition": "TemplateMatch",
         "template": "开始战斗.png",
         "roi": [
@@ -124,8 +124,8 @@
         ],
         "action": "Click",
         "next": [
-            "返回主页.黑",
-            "返回主页.白",
+            "BacktoMain_Black",
+            "BacktoMain_White",
             "打开邮箱"
         ]
     },
@@ -140,8 +140,8 @@
         ],
         "action": "Click",
         "next": [
-            "返回主页.黑",
-            "返回主页.白"
+            "BacktoMain_Black",
+            "BacktoMain_White"
         ]
     }
 }
