@@ -1,5 +1,5 @@
 {
-    "打开少前2": {
+    "Start_GF2": {
         "action": "StartApp",
         "package": "com.Sunborn.SnqxExilium",
         "timeout": 50000,
@@ -18,10 +18,10 @@
         ],
         "timeout": 50000,
         "next": [
-            "开始游戏"
+            "Click_Start_game"
         ]
     },
-    "开始游戏": {
+    "Click_Start_game": {
         "recognition": "OCR",
         "expected": [
             "点击开始"
@@ -41,11 +41,11 @@
             50
         ],
         "next": [
-            "开始游戏.加载中",
-            "开始游戏2"
+            "Click_Start_game_Loading",
+            "Click_Start_game2"
         ]
     },
-    "开始游戏2": {
+    "Click_Start_game2": {
         "recognition": "OCR",
         "expected": [
             "点击开始"
@@ -65,11 +65,11 @@
             50
         ],
         "next": [
-            "开始游戏.加载中",
-            "开始游戏"
+            "Click_Start_game_Loading",
+            "Click_Start_game"
         ]
     },
-    "开始游戏.加载中": {
+    "Click_Start_game_Loading": {
         "recognition": "OCR",
         "expected": [
             "资源加载中"
@@ -82,17 +82,34 @@
         ],
         "pre_wait_freezes": 20000,
         "next": [
-            "登录时关闭活动界面",
-            "登录时关闭活动界面2",
-            "关闭周年庆典",
-            "无活动界面",
-            "登陆游戏.点击空白处关闭"
+            "Close_Act_Window",
+            "Close_Act_Window2",
+            "Close_Anniversary_Window",
+            "No_Act_Window",
+            "Login_Click_Anywhere_To_Close"
         ]
     },
-    "登录时关闭活动界面": {
+    "Detect_Act_Page_Close": {
+        "recognition": "TemplateMatch",
+        "template": "活动界面.png",
+        "roi": [
+            53,
+            82,
+            302,
+            71
+        ],
+        "action": "Click",
+        "target": [
+            574,
+            34,
+            90,
+            36
+        ]
+    },
+    "Close_Act_Window": {
         "post_wait_freezes": 2500,
         "recognition": "TemplateMatch",
-        "template": "登录时关闭活动界面.png",
+        "template": "Close_Act_Window.png",
         "roi": [
             395,
             54,
@@ -107,10 +124,10 @@
             46
         ],
         "next": [
-            "登陆游戏.点击空白处关闭"
+            "Login_Click_Anywhere_To_Close"
         ]
     },
-    "登录时关闭活动界面2": {
+    "Close_Act_Window2": {
         "post_wait_freezes": 2500,
         "recognition": "TemplateMatch",
         "template": "活动界面.png",
@@ -128,14 +145,14 @@
             22
         ],
         "next": [
-            "登录时关闭活动界面",
-            "登录时关闭活动界面2",
-            "关闭周年庆典",
-            "无活动界面",
-            "登陆游戏.点击空白处关闭"
+            "Close_Act_Window",
+            "Close_Act_Window2",
+            "Close_Anniversary_Window",
+            "No_Act_Window",
+            "Login_Click_Anywhere_To_Close"
         ]
     },
-    "登陆游戏.点击空白处关闭": {
+    "Login_Click_Anywhere_To_Close": {
         "recognition": "OCR",
         "expected": [
             "点击空白"
@@ -148,12 +165,12 @@
         ],
         "action": "Click",
         "next": [
-            "检测活动界面并关闭",
-            "无活动界面",
-            "关闭周年庆典"
+            "Detect_Act_Page_Close",
+            "No_Act_Window",
+            "Close_Anniversary_Window"
         ]
     },
-    "关闭周年庆典": {
+    "Close_Anniversary_Window": {
         "recognition": "OCR",
         "expected": [
             "周年庆典"
@@ -172,34 +189,11 @@
             37
         ],
         "next": [
-            "关闭自选礼箱",
-            "检测活动界面并关闭",
-            "无活动界面"
+            "Detect_Act_Page_Close",
+            "No_Act_Window"
         ]
     },
-    "关闭自选礼箱": {
-        "recognition": "OCR",
-        "expected": [
-            "永久在售"
-        ],
-        "roi": [
-            102,
-            546,
-            98,
-            38
-        ],
-        "action": "Click",
-        "target": [
-            1144,
-            72,
-            23,
-            25
-        ],
-        "next": [
-            "无活动界面"
-        ]
-    },
-    "无活动界面": {
+    "No_Act_Window": {
         "recognition": "OCR",
         "expected": [
             "战役推进"
@@ -212,7 +206,7 @@
         ],
         "action": "DoNothing"
     },
-    "资源更新重启游戏": {
+    "Res_Update_Restart_Game": {
         "recognition": "OCR",
         "expected": [
             "资源更新完毕，需要重新启动游戏"
@@ -232,7 +226,7 @@
         ],
         "post_delay": 2500,
         "next": [
-            "打开少前2"
+            "Start_GF2"
         ]
     }
 }
