@@ -37,23 +37,6 @@
             "BacktoMain_White"
         ]
     },
-    "Detect_Act_Page_Close": {
-        "recognition": "TemplateMatch",
-        "template": "活动界面.png",
-        "roi": [
-            53,
-            82,
-            302,
-            71
-        ],
-        "action": "Click",
-        "target": [
-            574,
-            34,
-            90,
-            36
-        ]
-    },
     "Start_Battle": {
         "recognition": "TemplateMatch",
         "template": "开始战斗.png",
@@ -65,10 +48,10 @@
         ],
         "action": "Click",
         "next": [
-            "开启自动战斗"
+            "Begin_Auto_Battle"
         ]
     },
-    "开启自动战斗": {
+    "Begin_Auto_Battle": {
         "recognition": "TemplateMatch",
         "template": "检测自动战斗.png",
         "roi": [
@@ -86,10 +69,10 @@
         ],
         "pre_wait_freezes": 300000,
         "next": [
-            "结束战斗"
+            "End_Battle"
         ]
     },
-    "结束战斗": {
+    "End_Battle": {
         "recognition": "TemplateMatch",
         "template": "任务完成.png",
         "roi": [
@@ -106,16 +89,16 @@
             36
         ],
         "next": [
-            "结束战斗2"
+            "End_Battle2"
         ]
     },
-    "结束战斗2": {
+    "End_Battle2": {
         "recognition": "TemplateMatch",
         "template": ""
     },
-    "点击空白处关闭": {
+    "Click_Anywhere_To_Close": {
         "recognition": "TemplateMatch",
-        "template": "点击空白处关闭.png",
+        "template": "Click_Anywhere_To_Close.png",
         "roi": [
             551,
             599,
@@ -129,9 +112,9 @@
             "打开邮箱"
         ]
     },
-    "点击空白处关闭2": {
+    "Click_Anywhere_To_Close2": {
         "recognition": "TemplateMatch",
-        "template": "点击空白处关闭.png",
+        "template": "Click_Anywhere_To_Close.png",
         "roi": [
             551,
             599,
