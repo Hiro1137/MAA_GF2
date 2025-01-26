@@ -1,5 +1,5 @@
 {
-    "进入商城": {
+    "Enter_Shop": {
         "recognition": "OCR",
         "expected": [
             "商城"
@@ -12,13 +12,13 @@
         ],
         "action": "Click",
         "next": [
-            "品质甄选"
+            "PinZhiZhenXuan"
         ]
     },
-    "品质甄选": {
+    "PinZhiZhenXuan": {
         "recognition": "OCR",
         "expected": [
-            "品质甄选"
+            "PinZhiZhenXuan"
         ],
         "roi": [
             52,
@@ -28,13 +28,13 @@
         ],
         "action": "Click",
         "next": [
-            "常驻礼包"
+            "ChangZhuLiBao"
         ]
     },
-    "常驻礼包": {
+    "ChangZhuLiBao": {
         "recognition": "OCR",
         "expected": [
-            "常驻礼包"
+            "ChangZhuLiBao"
         ],
         "roi": [
             945,
@@ -44,13 +44,13 @@
         ],
         "action": "Click",
         "next": [
-            "每日补给箱",
-            "商城.返回主页2"
+            "Daily_Supply",
+            "Shop_BackToMain_2"
         ]
     },
-    "每日补给箱": {
+    "Daily_Supply": {
         "recognition": "TemplateMatch",
-        "template": "每日补给箱.png",
+        "template": "Daily_Supply.png",
         "roi": [
             273,
             174,
@@ -59,13 +59,13 @@
         ],
         "action": "Click",
         "next": [
-            "确认购买"
+            "Confirm_Purchase"
         ]
     },
-    "确认购买": {
+    "Confirm_Purchase": {
         "recognition": "OCR",
         "expected": [
-            "每日补给箱"
+            "Daily_Supply"
         ],
         "roi": [
             774,
@@ -81,10 +81,10 @@
             49
         ],
         "next": [
-            "商城.点击空白处关闭"
+            "Shop_Click_Anywhere_To_Close"
         ]
     },
-    "商城.点击空白处关闭": {
+    "Shop_Click_Anywhere_To_Close": {
         "recognition": "OCR",
         "expected": [
             "点击空白处关闭"
@@ -97,10 +97,10 @@
         ],
         "action": "Click",
         "next": [
-            "商城.返回主页2"
+            "Shop_BackToMain_2"
         ]
     },
-    "商城.返回主页2": {
+    "Shop_BackToMain_2": {
         "recognition": "TemplateMatch",
         "template": "返回主页2.png",
         "roi": [
