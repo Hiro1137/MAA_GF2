@@ -1,5 +1,5 @@
 {
-    "关闭少前2": {
+    "Close_GF2": {
         "action": "StopApp",
         "package": "com.Sunborn.SnqxExilium"
     }
