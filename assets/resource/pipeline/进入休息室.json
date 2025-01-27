@@ -1,5 +1,5 @@
 {
-    "进入休息室": {
+    "Enter_Dorm": {
         "recognition": "OCR",
         "expected": [
             "公共区"
@@ -12,10 +12,10 @@
         ],
         "action": "Click",
         "next": [
-            "休息室"
+            "Enter_Dorm2"
         ]
     },
-    "休息室": {
+    "Enter_Dorm2": {
         "recognition": "TemplateMatch",
         "template": "休息室.png",
         "roi": [
@@ -26,10 +26,10 @@
         ],
         "action": "Click",
         "next": [
-            "休息室.返回主页"
+            "Enter_Dorm2.BacktoMain"
         ]
     },
-    "休息室.返回主页": {
+    "Enter_Dorm2.BacktoMain": {
         "recognition": "TemplateMatch",
         "template": "赠礼.png",
         "roi": [
