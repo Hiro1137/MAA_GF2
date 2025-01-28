@@ -18,7 +18,7 @@
     "PinZhiZhenXuan": {
         "recognition": "OCR",
         "expected": [
-            "PinZhiZhenXuan"
+            "品质甄选"
         ],
         "roi": [
             52,
@@ -34,7 +34,7 @@
     "ChangZhuLiBao": {
         "recognition": "OCR",
         "expected": [
-            "ChangZhuLiBao"
+            "常驻礼包"
         ],
         "roi": [
             945,
@@ -50,7 +50,7 @@
     },
     "Daily_Supply": {
         "recognition": "TemplateMatch",
-        "template": "Daily_Supply.png",
+        "template": "每日补给箱.png",
         "roi": [
             273,
             174,
@@ -65,7 +65,7 @@
     "Confirm_Purchase": {
         "recognition": "OCR",
         "expected": [
-            "Daily_Supply"
+            "每日补给箱"
         ],
         "roi": [
             774,
