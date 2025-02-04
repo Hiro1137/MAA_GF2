@@ -55,10 +55,10 @@
         "recognition": "TemplateMatch",
         "template": "邮箱2.png",
         "roi": [
-            750,
-            122,
-            256,
-            48
+            684,
+            120,
+            385,
+            50
         ],
         "action": "Click",
         "next": [
