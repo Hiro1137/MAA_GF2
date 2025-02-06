@@ -11,6 +11,7 @@
             98
         ],
         "action": "Click",
+        "post_wait_freezes": 1100,
         "next": [
             "收委托2",
             "委托.返回主页"
