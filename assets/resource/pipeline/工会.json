@@ -199,7 +199,7 @@
             "领取补给2"
         ],
         "on_error": [
-            "工会.返回主页2"
+            "领取补给返回"
         ]
     },
     "领取补给2": {
@@ -218,6 +218,154 @@
             "工会.点击空白处关闭"
         ]
     },
+    "领取补给返回": {
+        "recognition": "OCR",
+        "expected": [
+            "分配中"
+        ],
+        "roi": [
+            648,
+            82,
+            103,
+            41
+        ],
+        "action": "Click",
+        "target": [
+            37,
+            35,
+            21,
+            20
+        ],
+        "next": [
+            "烟尘前线"
+        ]
+    },
+    "烟尘前线": {
+        "recognition": "OCR",
+        "expected": [
+            "尘烟前线"
+        ],
+        "roi": [
+            1059,
+            581,
+            171,
+            71
+        ],
+        "action": "Click",
+        "next": [
+            "前线补给"
+        ]
+    },
+    "前线补给": {
+        "recognition": "OCR",
+        "expected": [
+            "前线补给"
+        ],
+        "roi": [
+            267,
+            630,
+            96,
+            44
+        ],
+        "action": "Click",
+        "next": [
+            "班组表现"
+        ]
+    },
+    "班组表现": {
+        "recognition": "OCR",
+        "expected": [
+            "班组表现"
+        ],
+        "roi": [
+            735,
+            198,
+            134,
+            42
+        ],
+        "timeout": 5000,
+        "action": "Click",
+        "next": [
+            "班组表现领取"
+        ],
+        "on_error": [
+            "班组表现无奖励"
+        ]
+    },
+    "班组表现领取": {
+        "recognition": "OCR",
+        "expected": [
+            "一键领取"
+        ],
+        "roi": [
+            585,
+            556,
+            109,
+            32
+        ],
+        "action": "Click",
+        "next": [
+            "工会.班组表现.点击空白处关闭"
+        ]
+    },
+    "班组表现无奖励": {
+        "recognition": "OCR",
+        "expected": [
+            "前线补给"
+        ],
+        "roi": [
+            557,
+            111,
+            168,
+            57
+        ],
+        "action": "Click",
+        "target": [
+            941,
+            130,
+            21,
+            21
+        ],
+        "next": [
+            "工会.返回主页2"
+        ]
+    },
+    "工会.班组表现.点击空白处关闭": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "班组表现关闭"
+        ]
+    },
+    "班组表现关闭": {
+        "recognition": "OCR",
+        "expected": [
+            "前线补给"
+        ],
+        "roi": [
+            557,
+            111,
+            168,
+            57
+        ],
+        "action": "Click",
+        "target": [
+            941,
+            130,
+            21,
+            21
+        ],
+        "next": [
+            "工会.返回主页2"
+        ]
+    },
     "工会.点击空白处关闭": {
         "recognition": "TemplateMatch",
         "template": "点击空白处关闭.png",
@@ -229,7 +377,7 @@
         ],
         "action": "Click",
         "next": [
-            "工会.返回主页2"
+            "领取补给返回"
         ]
     },
     "工会.关闭窗口1": {
