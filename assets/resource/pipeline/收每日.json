@@ -32,21 +32,17 @@
         ]
     },
     "收委托3": {
-        "recognition": "TemplateMatch",
-        "template": "委托进度.png",
+        "recognition": "OCR",
+        "expected": [
+            "领取全部"
+        ],
         "roi": [
-            46,
-            172,
-            289,
-            259
+            156,
+            610,
+            102,
+            47
         ],
         "action": "Click",
-        "target": [
-            74,
-            611,
-            241,
-            45
-        ],
         "next": [
             "收委托.点击空白处关闭"
         ]
