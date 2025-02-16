@@ -89,7 +89,7 @@
             22,
             14
         ],
-        "pre_wait_freezes": 300000,
+        "pre_wait_freezes": 10000,
         "next": [
             "工会.正在战斗"
         ]
