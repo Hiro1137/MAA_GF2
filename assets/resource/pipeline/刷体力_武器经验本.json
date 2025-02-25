@@ -1,5 +1,5 @@
 {
-    "刷体力.进入关卡选择": {
+    "武器经验本.进入关卡选择": {
         "recognition": "OCR",
         "expected": [
             "战役推进"
@@ -12,56 +12,10 @@
         ],
         "action": "Click",
         "next": [
-            "补给作战"
+            "武器经验本.补给作战"
         ]
     },
-    "选择扫荡次数": {
-        "action": "Swipe",
-        "begin": [
-            498,
-            389,
-            1,
-            1
-        ],
-        "end": [
-            1259,
-            396,
-            1,
-            1
-        ],
-        "next": [
-            "开始扫荡"
-        ]
-    },
-    "开始扫荡": {
-        "recognition": "TemplateMatch",
-        "template": "开始扫荡.png",
-        "roi": [
-            667,
-            522,
-            293,
-            61
-        ],
-        "action": "Click",
-        "next": [
-            "点击空白处关闭3"
-        ]
-    },
-    "点击空白处关闭3": {
-        "recognition": "TemplateMatch",
-        "template": "点击空白处关闭.png",
-        "roi": [
-            551,
-            599,
-            175,
-            56
-        ],
-        "action": "Click",
-        "next": [
-            "金条本返回"
-        ]
-    },
-    "补给作战": {
+    "武器经验本.补给作战": {
         "recognition": "TemplateMatch",
         "template": "补给作战.png",
         "roi": [
@@ -72,111 +26,37 @@
         ],
         "action": "Click",
         "next": [
-            "刷金条"
+            "选择武器经验本1"
         ]
     },
-    "刷金条": {
-        "recognition": "TemplateMatch",
-        "template": "深度搜索.png",
-        "roi": [
-            76,
-            158,
-            211,
-            252
-        ],
+    "选择武器经验本1": {
         "action": "Swipe",
         "begin": [
-            1084,
-            390,
+            267,
+            403,
             1,
             1
         ],
         "end": [
-            563,
-            389,
+            1165,
+            404,
             1,
             1
         ],
         "next": [
-            "点击金条本"
+            "选择武器经验本2"
         ]
     },
-    "点击金条本": {
-        "recognition": "TemplateMatch",
-        "template": "标准同调.png",
-        "roi": [
-            1004,
-            206,
-            197,
-            182
-        ],
-        "action": "Click",
-        "next": [
-            "金条本选关"
-        ]
-    },
-    "金条本选关": {
-        "action": "Swipe",
-        "begin": [
-            431,
-            636,
-            1,
-            1
-        ],
-        "end": [
-            429,
-            184,
-            1,
-            1
-        ],
-        "next": [
-            "金条本选关2"
-        ]
-    },
-    "金条本选关2": {
+    "选择武器经验本2": {
         "recognition": "OCR",
         "expected": [
-            "10"
+            "军备解析"
         ],
         "roi": [
-            37,
-            230,
-            115,
-            463
-        ],
-        "action": "Click",
-        "target": [
-            853,
-            629,
-            103,
-            46
-        ],
-        "next": [
-            "选择扫荡次数"
-        ]
-    },
-    "金条本返回": {
-        "recognition": "TemplateMatch",
-        "template": "金条本返回.png",
-        "roi": [
-            24,
-            15,
-            50,
-            58
-        ],
-        "action": "Click",
-        "next": [
-            "选择武器经验本"
-        ]
-    },
-    "选择武器经验本": {
-        "recognition": "TemplateMatch",
-        "template": "军备解析.png",
-        "roi": [
-            108,
-            159,
-            214,
-            246
+            89,
+            313,
+            1172,
+            101
         ],
         "action": "Click",
         "next": [
