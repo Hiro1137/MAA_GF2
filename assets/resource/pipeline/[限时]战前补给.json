@@ -38,10 +38,8 @@
         ]
     },
     "领战前补给": {
-        "recognition": "OCR",
-        "expected": [
-            "领取"
-        ],
+        "recognition": "TemplateMatch",
+        "template": "领战前补给.png",
         "roi": [
             1081,
             106,
@@ -49,7 +47,7 @@
             496
         ],
         "action": "Click",
-        "post_wait_freezes": 5000,
+        "pre_wait_freezes": 5000,
         "next": [
             "领战前补给.点击空白处关闭"
         ]
