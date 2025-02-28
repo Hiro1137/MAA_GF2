@@ -49,6 +49,7 @@
             496
         ],
         "action": "Click",
+        "post_wait_freezes": 5000,
         "next": [
             "领战前补给.点击空白处关闭"
         ]
