@@ -451,3 +451,4 @@ tools/ImageCropper/**/*.png
 config/
 发版.bat
 删版.bat
+maa_pi_config.json
