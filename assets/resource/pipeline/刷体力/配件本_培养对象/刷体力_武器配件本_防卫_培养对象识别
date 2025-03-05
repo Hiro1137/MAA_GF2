@@ -1,0 +1,122 @@
+{
+    "闪电1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "闪电2"
+        ]
+    },
+    "闪电2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "闪电3"
+        ]
+    },
+    "闪电3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "闪电4"
+        ]
+    },
+    "闪电4": {
+        "recognition": "OCR",
+        "expected": [
+            "闪电"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "塞布丽娜1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "塞布丽娜2"
+        ]
+    },
+    "塞布丽娜2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "塞布丽娜3"
+        ]
+    },
+    "塞布丽娜3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "塞布丽娜4"
+        ]
+    },
+    "塞布丽娜4": {
+        "recognition": "OCR",
+        "expected": [
+            "塞布丽娜"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    }
+}

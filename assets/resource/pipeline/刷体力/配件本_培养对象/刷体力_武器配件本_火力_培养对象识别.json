@@ -1,0 +1,542 @@
+{
+    "可露凯1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "可露凯2"
+        ]
+    },
+    "可露凯2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "可露凯3"
+        ]
+    },
+    "可露凯3": {
+        "recognition": "OCR",
+        "expected": [
+            "火力"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "可露凯4"
+        ]
+    },
+    "可露凯4": {
+        "recognition": "OCR",
+        "expected": [
+            "可露凯"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "莫辛纳甘1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莫辛纳甘2"
+        ]
+    },
+    "莫辛纳甘2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "莫辛纳甘3"
+        ]
+    },
+    "莫辛纳甘3": {
+        "recognition": "OCR",
+        "expected": [
+            "火力"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莫辛纳甘4"
+        ]
+    },
+    "莫辛纳甘4": {
+        "recognition": "OCR",
+        "expected": [
+            "莫辛纳甘"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "琼玖1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "琼玖2"
+        ]
+    },
+    "琼玖2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "琼玖3"
+        ]
+    },
+    "琼玖3": {
+        "recognition": "OCR",
+        "expected": [
+            "火力"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "琼玖4"
+        ]
+    },
+    "琼玖4": {
+        "recognition": "OCR",
+        "expected": [
+            "琼玖"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "夏克里1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "夏克里2"
+        ]
+    },
+    "夏克里2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "夏克里3"
+        ]
+    },
+    "夏克里3": {
+        "recognition": "OCR",
+        "expected": [
+            "火力"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "夏克里4"
+        ]
+    },
+    "夏克里4": {
+        "recognition": "OCR",
+        "expected": [
+            "夏克里"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "纳美西丝1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "纳美西丝2"
+        ]
+    },
+    "纳美西丝2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "纳美西丝3"
+        ]
+    },
+    "纳美西丝3": {
+        "recognition": "OCR",
+        "expected": [
+            "火力"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "纳美西丝4"
+        ]
+    },
+    "纳美西丝4": {
+        "recognition": "OCR",
+        "expected": [
+            "纳美西丝"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "佩里缇亚1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "佩里缇亚2"
+        ]
+    },
+    "佩里缇亚2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "佩里缇亚3"
+        ]
+    },
+    "佩里缇亚3": {
+        "recognition": "OCR",
+        "expected": [
+            "火力"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "佩里缇亚4"
+        ]
+    },
+    "佩里缇亚4": {
+        "recognition": "OCR",
+        "expected": [
+            "佩里缇亚"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "莉塔拉1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莉塔拉2"
+        ]
+    },
+    "莉塔拉2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "莉塔拉3"
+        ]
+    },
+    "莉塔拉3": {
+        "recognition": "OCR",
+        "expected": [
+            "火力"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莉塔拉4"
+        ]
+    },
+    "莉塔拉4": {
+        "recognition": "OCR",
+        "expected": [
+            "莉塔拉"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "波波沙1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "波波沙2"
+        ]
+    },
+    "波波沙2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "波波沙3"
+        ]
+    },
+    "波波沙3": {
+        "recognition": "OCR",
+        "expected": [
+            "火力"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "波波沙4"
+        ]
+    },
+    "波波沙4": {
+        "recognition": "OCR",
+        "expected": [
+            "波波沙"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "托洛洛1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "托洛洛2"
+        ]
+    },
+    "托洛洛2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "托洛洛3"
+        ]
+    },
+    "托洛洛3": {
+        "recognition": "OCR",
+        "expected": [
+            "火力"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "托洛洛4"
+        ]
+    },
+    "托洛洛4": {
+        "recognition": "OCR",
+        "expected": [
+            "托洛洛"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    }
+}

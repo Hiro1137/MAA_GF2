@@ -55,6 +55,13 @@
             "entry": "武器经验本.进入关卡选择"
         },
         {
+            "name": "刷体力_武器配件本",
+            "entry": "定向精研.进入关卡选择",
+            "option": [
+                "任务选项1"
+            ]
+        },
+        {
             "name": "自动周常boss",
             "entry": "boss.进入关卡选择"
         },
@@ -73,13 +80,6 @@
         {
             "name": "关闭游戏",
             "entry": "关闭少前2"
-        },
-        {
-            "name": "刷体力_武器配件本",
-            "entry": "定向精研.进入关卡选择",
-            "option": [
-                "任务选项1"
-            ]
         }
     ],
     "option": {
@@ -101,7 +101,7 @@
                             ],
                             "action": "Click",
                             "next": [
-                                "可露凯"
+                                "可露凯1"
                             ]
                         }
                     }
@@ -109,8 +109,441 @@
                 {
                     "name": "可露凯",
                     "pipeline_override": {
-                        "可露凯": {
-                            "enabled": true
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "可露凯1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "莫辛纳甘",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "莫辛纳甘1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "琼玖",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "琼玖1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "夏克里",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "夏克里1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "纳美西丝",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "纳美西丝1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "佩里缇亚",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "佩里缇亚1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "莉塔拉",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "莉塔拉1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "波波沙",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "波波沙1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "托洛洛",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "托洛洛1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "黛烟",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "黛烟1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "维普蕾",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "维普蕾1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "克罗丽科",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "克罗丽科1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "绯",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "绯1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "科谢尼娅",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "科谢尼娅1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "寇尔芙",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "寇尔芙1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "纳甘",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "纳甘1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "奇塔",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "奇塔1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "莱娜",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "莱娜1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "可露凯",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "可露凯1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "塞布丽娜",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "塞布丽娜1"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "闪电",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "闪电1"
+                            ]
                         }
                     }
                 }
