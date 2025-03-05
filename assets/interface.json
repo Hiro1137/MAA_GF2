@@ -107,27 +107,6 @@
                     }
                 },
                 {
-                    "name": "可露凯",
-                    "pipeline_override": {
-                        "开始选择培养对象": {
-                            "recognition": "OCR",
-                            "expected": [
-                                "培养中"
-                            ],
-                            "roi": [
-                                66,
-                                148,
-                                163,
-                                54
-                            ],
-                            "action": "Click",
-                            "next": [
-                                "可露凯1"
-                            ]
-                        }
-                    }
-                },
-                {
                     "name": "莫辛纳甘",
                     "pipeline_override": {
                         "开始选择培养对象": {
