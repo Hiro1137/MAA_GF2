@@ -1,0 +1,92 @@
+{
+    "定向精研.进入关卡选择": {
+        "recognition": "OCR",
+        "expected": [
+            "战役推进"
+        ],
+        "roi": [
+            991,
+            51,
+            255,
+            95
+        ],
+        "action": "Click",
+        "next": [
+            "定向精研.补给作战"
+        ]
+    },
+    "定向精研.补给作战": {
+        "recognition": "TemplateMatch",
+        "template": "补给作战.png",
+        "roi": [
+            901,
+            16,
+            114,
+            47
+        ],
+        "action": "Click",
+        "next": [
+            "选择定向精研1"
+        ]
+    },
+    "选择定向精研1": {
+        "action": "Swipe",
+        "begin": [
+            267,
+            403,
+            1,
+            1
+        ],
+        "end": [
+            1165,
+            404,
+            1,
+            1
+        ],
+        "next": [
+            "选择定向精研2"
+        ]
+    },
+    "选择定向精研2": {
+        "recognition": "OCR",
+        "expected": [
+            "定向精研"
+        ],
+        "roi": [
+            60,
+            161,
+            1193,
+            275
+        ],
+        "action": "Click",
+        "next": [
+            "开始选择培养对象"
+        ]
+    },
+    "开始选择培养对象": {
+        "recognition": "OCR",
+        "expected": [
+            "培养中"
+        ],
+        "roi": [
+            66,
+            148,
+            163,
+            54
+        ],
+        "action": "Click"
+    },
+    "培养对象确认": {
+        "recognition": "OCR",
+        "expected": [
+            "确认"
+        ],
+        "roi": [
+            902,
+            599,
+            218,
+            45
+        ],
+        "action": "Click"
+    }
+}
