@@ -36,7 +36,10 @@
         },
         {
             "name": "工会",
-            "entry": "进入工会"
+            "entry": "进入工会",
+            "option": [
+                "自动尘烟前线"
+            ]
         },
         {
             "name": "进休息室",
@@ -48,7 +51,10 @@
         },
         {
             "name": "刷体力_金条本",
-            "entry": "金条本.进入关卡选择"
+            "entry": "金条本.进入关卡选择",
+            "option": [
+                "金条本扫荡次数"
+            ]
         },
         {
             "name": "刷体力_武器经验本",
@@ -87,6 +93,122 @@
         }
     ],
     "option": {
+        "自动尘烟前线": {
+            "cases": [
+                {
+                    "name": "Yes",
+                    "pipeline_override": {
+                        "领取补给返回": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "分配中"
+                            ],
+                            "roi": [
+                                648,
+                                82,
+                                103,
+                                41
+                            ],
+                            "action": "Click",
+                            "target": [
+                                37,
+                                35,
+                                21,
+                                20
+                            ],
+                            "next": [
+                                "尘烟前线"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "No",
+                    "pipeline_override": {
+                        "领取补给返回": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "分配中"
+                            ],
+                            "roi": [
+                                648,
+                                82,
+                                103,
+                                41
+                            ],
+                            "action": "Click",
+                            "target": [
+                                37,
+                                35,
+                                21,
+                                20
+                            ],
+                            "next": [
+                                "工会.返回主页2"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "金条本扫荡次数": {
+            "cases": [
+                {
+                    "name": "小月卡两次",
+                    "pipeline_override": {
+                        "金条本选关2": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "10"
+                            ],
+                            "roi": [
+                                37,
+                                230,
+                                115,
+                                463
+                            ],
+                            "action": "Click",
+                            "target": [
+                                853,
+                                629,
+                                103,
+                                46
+                            ],
+                            "next": [
+                                "金条本.选择扫荡次数.小月卡"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "用完全部体力",
+                    "pipeline_override": {
+                        "金条本选关2": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "10"
+                            ],
+                            "roi": [
+                                37,
+                                230,
+                                115,
+                                463
+                            ],
+                            "action": "Click",
+                            "target": [
+                                853,
+                                629,
+                                103,
+                                46
+                            ],
+                            "next": [
+                                "金条本.选择扫荡次数"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
         "选择培养人形": {
             "cases": [
                 {
