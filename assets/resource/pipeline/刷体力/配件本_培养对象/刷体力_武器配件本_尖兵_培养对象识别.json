@@ -238,5 +238,245 @@
         "next": [
             "培养对象确认"
         ]
+    },
+    "乌尔丽德1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "乌尔丽德2"
+        ]
+    },
+    "乌尔丽德2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "乌尔丽德3"
+        ]
+    },
+    "乌尔丽德3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "乌尔丽德4"
+        ]
+    },
+    "乌尔丽德4": {
+        "recognition": "OCR",
+        "expected": [
+            "乌尔丽德"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "朝晖1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "朝晖2"
+        ]
+    },
+    "朝晖2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "朝晖3"
+        ]
+    },
+    "朝晖3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "朝晖4"
+        ]
+    },
+    "朝晖4": {
+        "recognition": "OCR",
+        "expected": [
+            "朝晖"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "比悠卡1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "比悠卡2"
+        ]
+    },
+    "比悠卡2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "比悠卡3"
+        ]
+    },
+    "比悠卡3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "比悠卡4"
+        ]
+    },
+    "比悠卡4": {
+        "recognition": "OCR",
+        "expected": [
+            "比悠卡"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "秋桦1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "秋桦2"
+        ]
+    },
+    "秋桦2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "秋桦3"
+        ]
+    },
+    "秋桦3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "秋桦4"
+        ]
+    },
+    "秋桦4": {
+        "recognition": "OCR",
+        "expected": [
+            "秋桦"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
     }
 }

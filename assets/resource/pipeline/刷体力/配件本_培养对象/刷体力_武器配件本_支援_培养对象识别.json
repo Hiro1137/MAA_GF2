@@ -298,5 +298,485 @@
         "next": [
             "培养对象确认"
         ]
+    },
+    "桑朵莱希1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "桑朵莱希2"
+        ]
+    },
+    "桑朵莱希2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "桑朵莱希3"
+        ]
+    },
+    "桑朵莱希3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "桑朵莱希4"
+        ]
+    },
+    "桑朵莱希4": {
+        "recognition": "OCR",
+        "expected": [
+            "桑朵莱希"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "索米1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "索米2"
+        ]
+    },
+    "索米2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "索米3"
+        ]
+    },
+    "索米3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "索米4"
+        ]
+    },
+    "索米4": {
+        "recognition": "OCR",
+        "expected": [
+            "索米"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "杜莎妮1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "杜莎妮2"
+        ]
+    },
+    "杜莎妮2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "杜莎妮3"
+        ]
+    },
+    "杜莎妮3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "杜莎妮4"
+        ]
+    },
+    "杜莎妮4": {
+        "recognition": "OCR",
+        "expected": [
+            "杜莎妮"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "米什缇1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "米什缇2"
+        ]
+    },
+    "米什缇2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "米什缇3"
+        ]
+    },
+    "米什缇3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "米什缇4"
+        ]
+    },
+    "米什缇4": {
+        "recognition": "OCR",
+        "expected": [
+            "米什缇"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "维克托1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "维克托2"
+        ]
+    },
+    "维克托2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "维克托3"
+        ]
+    },
+    "维克托3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "维克托4"
+        ]
+    },
+    "维克托4": {
+        "recognition": "OCR",
+        "expected": [
+            "维克托"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "春田1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "春田2"
+        ]
+    },
+    "春田2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "春田3"
+        ]
+    },
+    "春田3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "春田4"
+        ]
+    },
+    "春田4": {
+        "recognition": "OCR",
+        "expected": [
+            "春田"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "佩莉1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "佩莉2"
+        ]
+    },
+    "佩莉2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "佩莉3"
+        ]
+    },
+    "佩莉3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "佩莉4"
+        ]
+    },
+    "佩莉4": {
+        "recognition": "OCR",
+        "expected": [
+            "佩莉"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "幼熙1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "幼熙2"
+        ]
+    },
+    "幼熙2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "幼熙3"
+        ]
+    },
+    "幼熙3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "幼熙4"
+        ]
+    },
+    "幼熙4": {
+        "recognition": "OCR",
+        "expected": [
+            "幼熙"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
     }
 }

@@ -118,5 +118,65 @@
         "next": [
             "培养对象确认"
         ]
+    },
+    "安朵丝1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "安朵丝2"
+        ]
+    },
+    "安朵丝2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "安朵丝3"
+        ]
+    },
+    "安朵丝3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "安朵丝4"
+        ]
+    },
+    "安朵丝4": {
+        "recognition": "OCR",
+        "expected": [
+            "安朵丝"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
     }
 }

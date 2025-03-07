@@ -538,5 +538,245 @@
         "next": [
             "培养对象确认"
         ]
+    },
+    "绛雨1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "绛雨2"
+        ]
+    },
+    "绛雨2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "绛雨3"
+        ]
+    },
+    "绛雨3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "绛雨4"
+        ]
+    },
+    "绛雨4": {
+        "recognition": "OCR",
+        "expected": [
+            "绛雨"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "玛绮朵1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "玛绮朵2"
+        ]
+    },
+    "玛绮朵2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "玛绮朵3"
+        ]
+    },
+    "玛绮朵3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "玛绮朵4"
+        ]
+    },
+    "玛绮朵4": {
+        "recognition": "OCR",
+        "expected": [
+            "玛绮朵"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "洛塔1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "洛塔2"
+        ]
+    },
+    "洛塔2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "洛塔3"
+        ]
+    },
+    "洛塔3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "洛塔4"
+        ]
+    },
+    "洛塔4": {
+        "recognition": "OCR",
+        "expected": [
+            "洛塔"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "妮基塔1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "妮基塔2"
+        ]
+    },
+    "妮基塔2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "妮基塔3"
+        ]
+    },
+    "妮基塔3": {
+        "recognition": "OCR",
+        "expected": [
+            "防卫"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "妮基塔4"
+        ]
+    },
+    "妮基塔4": {
+        "recognition": "OCR",
+        "expected": [
+            "妮基塔"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
     }
 }
