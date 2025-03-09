@@ -1,5 +1,5 @@
 {
-    "进入商城": {
+    "每日包进入商城": {
         "recognition": "OCR",
         "expected": [
             "商城"
