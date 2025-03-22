@@ -16,13 +16,15 @@
         ]
     },
     "定向精研.补给作战": {
-        "recognition": "TemplateMatch",
-        "template": "补给作战.png",
+        "recognition": "OCR",
+        "expected": [
+            "补给作战"
+        ],
         "roi": [
-            901,
-            16,
-            114,
-            47
+            481,
+            12,
+            792,
+            59
         ],
         "action": "Click",
         "next": [
@@ -154,7 +156,8 @@
         "action": "Click",
         "next": [
             "定向精研选关.选择组合1",
-            "定向精研.体力不足2"
+            "定向精研.体力不足2",
+            "定向精研.配件到达上限"
         ]
     },
     "定向精研选关.选择组合1": {
@@ -290,7 +293,8 @@
         "action": "Click",
         "next": [
             "定向精研选关.选择组合2",
-            "定向精研.体力不足2"
+            "定向精研.体力不足2",
+            "定向精研.配件到达上限"
         ]
     },
     "定向精研选关.选择组合2": {
@@ -387,5 +391,139 @@
             72
         ],
         "action": "Click"
+    },
+    "定向精研.配件到达上限": {
+        "recognition": "OCR",
+        "expected": [
+            "武器配件已达储存上限"
+        ],
+        "roi": [
+            405,
+            307,
+            469,
+            72
+        ],
+        "action": "Click",
+        "target": [
+            777,
+            524,
+            91,
+            36
+        ],
+        "next": [
+            "拆配件1"
+        ]
+    },
+    "拆配件1": {
+        "recognition": "TemplateMatch",
+        "template": "拆解.png",
+        "roi": [
+            40,
+            632,
+            59,
+            60
+        ],
+        "action": "Click",
+        "next": [
+            "拆配件2"
+        ]
+    },
+    "拆配件2": {
+        "recognition": "OCR",
+        "expected": [
+            "工业级"
+        ],
+        "roi": [
+            408,
+            481,
+            263,
+            57
+        ],
+        "action": "Click",
+        "next": [
+            "拆配件3"
+        ]
+    },
+    "拆配件3": {
+        "recognition": "OCR",
+        "expected": [
+            "军用级"
+        ],
+        "roi": [
+            424,
+            339,
+            238,
+            143
+        ],
+        "action": "Click",
+        "next": [
+            "拆配件4"
+        ]
+    },
+    "拆配件4": {
+        "recognition": "OCR",
+        "expected": [
+            "快捷选择"
+        ],
+        "roi": [
+            670,
+            486,
+            139,
+            41
+        ],
+        "action": "Click",
+        "next": [
+            "拆配件5",
+            "无可拆解配件"
+        ]
+    },
+    "拆配件5": {
+        "recognition": "TemplateMatch",
+        "template": "拆解2.png",
+        "roi": [
+            871,
+            633,
+            359,
+            65
+        ],
+        "action": "Click",
+        "next": [
+            "拆配件.点击空白处关闭",
+            "拆配件4"
+        ]
+    },
+    "无可拆解配件": {
+        "recognition": "TemplateMatch",
+        "template": "无拆解配件.png",
+        "roi": [
+            865,
+            633,
+            366,
+            61
+        ],
+        "action": "Click",
+        "target": [
+            112,
+            33,
+            20,
+            19
+        ],
+        "next": [
+            "定向精研.进入关卡选择"
+        ]
+    },
+    "拆配件.点击空白处关闭": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "拆配件4"
+        ]
     }
 }
