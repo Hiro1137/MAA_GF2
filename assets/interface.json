@@ -31,6 +31,14 @@
             "entry": "战前补给.打开活动"
         },
         {
+            "name": "[限时]暗香赠礼",
+            "entry": "暗香赠礼.打开活动",
+            "option": [
+                "铁玫瑰奖励",
+                "火玫瑰奖励"
+            ]
+        },
+        {
             "name": "收取邮件",
             "entry": "邮件.检测主页"
         },
@@ -145,6 +153,161 @@
                             ],
                             "next": [
                                 "工会.返回主页2"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "铁玫瑰奖励": {
+            "cases": [
+                {
+                    "name": "战场报告",
+                    "pipeline_override": {
+                        "开铁玫瑰2": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "战场报告"
+                            ],
+                            "roi": [
+                                287,
+                                147,
+                                689,
+                                423
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "开铁玫瑰3"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "解析图纸",
+                    "pipeline_override": {
+                        "开铁玫瑰2": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "解析图纸"
+                            ],
+                            "roi": [
+                                287,
+                                147,
+                                689,
+                                423
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "开铁玫瑰3"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "萨狄斯金",
+                    "pipeline_override": {
+                        "开铁玫瑰2": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "萨狄斯金"
+                            ],
+                            "roi": [
+                                287,
+                                147,
+                                689,
+                                423
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "开铁玫瑰3"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "火玫瑰奖励": {
+            "cases": [
+                {
+                    "name": "转录导体.序四",
+                    "pipeline_override": {
+                        "开火玫瑰2": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "序四"
+                            ],
+                            "roi": [
+                                287,
+                                269,
+                                701,
+                                288
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "开火玫瑰3"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "转录导体.序五",
+                    "pipeline_override": {
+                        "开火玫瑰2": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "序五"
+                            ],
+                            "roi": [
+                                287,
+                                269,
+                                701,
+                                288
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "开火玫瑰3"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "转录导体.序六",
+                    "pipeline_override": {
+                        "开火玫瑰2": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "序六"
+                            ],
+                            "roi": [
+                                287,
+                                269,
+                                701,
+                                288
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "开火玫瑰3"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "转录导体.序三",
+                    "pipeline_override": {
+                        "开火玫瑰2": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "序三"
+                            ],
+                            "roi": [
+                                287,
+                                269,
+                                701,
+                                288
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "开火玫瑰3"
                             ]
                         }
                     }

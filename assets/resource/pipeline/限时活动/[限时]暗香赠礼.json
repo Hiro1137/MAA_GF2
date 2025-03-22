@@ -1,0 +1,319 @@
+{
+    "暗香赠礼.打开活动": {
+        "recognition": "OCR",
+        "expected": [
+            "活动"
+        ],
+        "roi": [
+            533,
+            643,
+            429,
+            49
+        ],
+        "action": "Click",
+        "next": [
+            "检测暗香赠礼"
+        ],
+        "on_error": [
+            "无暗香赠礼"
+        ]
+    },
+    "检测暗香赠礼": {
+        "recognition": "OCR",
+        "expected": [
+            "暗香赠礼"
+        ],
+        "roi": [
+            58,
+            148,
+            251,
+            488
+        ],
+        "action": "Click",
+        "next": [
+            "进入暗香赠礼"
+        ]
+    },
+    "进入暗香赠礼": {
+        "recognition": "OCR",
+        "expected": [
+            "前往"
+        ],
+        "roi": [
+            1008,
+            550,
+            203,
+            49
+        ],
+        "action": "Click",
+        "next": [
+            "开铁玫瑰"
+        ]
+    },
+    "开铁玫瑰": {
+        "recognition": "OCR",
+        "expected": [
+            "铁玫瑰"
+        ],
+        "roi": [
+            258,
+            525,
+            273,
+            69
+        ],
+        "action": "Click",
+        "target": [
+            414,
+            635,
+            71,
+            29
+        ],
+        "next": [
+            "开铁玫瑰2"
+        ]
+    },
+    "开铁玫瑰2": {
+        "recognition": "OCR",
+        "expected": [
+            "战场报告"
+        ],
+        "roi": [
+            287,
+            147,
+            689,
+            423
+        ],
+        "action": "Click",
+        "next": [
+            "开铁玫瑰3"
+        ]
+    },
+    "开铁玫瑰3": {
+        "action": "Swipe",
+        "begin": [
+            500,
+            524,
+            1,
+            1
+        ],
+        "end": [
+            1139,
+            531,
+            1,
+            1
+        ],
+        "next": [
+            "开铁玫瑰4"
+        ]
+    },
+    "开铁玫瑰4": {
+        "action": "Click",
+        "target": [
+            787,
+            584,
+            104,
+            43
+        ],
+        "next": [
+            "开铁玫瑰5",
+            "已领铁玫瑰"
+        ]
+    },
+    "开铁玫瑰5": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "开火玫瑰1"
+        ]
+    },
+    "已领铁玫瑰": {
+        "recognition": "OCR",
+        "expected": [
+            "查看奖励"
+        ],
+        "action": "Click",
+        "target": [
+            966,
+            66,
+            24,
+            16
+        ],
+        "next": [
+            "开火玫瑰1"
+        ]
+    },
+    "开火玫瑰1": {
+        "recognition": "OCR",
+        "expected": [
+            "火玫瑰"
+        ],
+        "roi": [
+            866,
+            541,
+            236,
+            49
+        ],
+        "action": "Click",
+        "target": [
+            1019,
+            636,
+            73,
+            29
+        ],
+        "next": [
+            "开火玫瑰2"
+        ]
+    },
+    "开火玫瑰2": {
+        "recognition": "OCR",
+        "expected": [
+            "序四"
+        ],
+        "roi": [
+            287,
+            269,
+            701,
+            288
+        ],
+        "action": "Click",
+        "next": [
+            "开火玫瑰3"
+        ]
+    },
+    "开火玫瑰3": {
+        "action": "Swipe",
+        "begin": [
+            500,
+            524,
+            1,
+            1
+        ],
+        "end": [
+            1139,
+            531,
+            1,
+            1
+        ],
+        "next": [
+            "开火玫瑰4"
+        ]
+    },
+    "开火玫瑰4": {
+        "action": "Click",
+        "target": [
+            787,
+            584,
+            104,
+            43
+        ],
+        "next": [
+            "开火玫瑰5",
+            "已领火玫瑰"
+        ]
+    },
+    "开火玫瑰5": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "暗香赠礼.领紫核"
+        ]
+    },
+    "已领火玫瑰": {
+        "recognition": "OCR",
+        "expected": [
+            "查看奖励"
+        ],
+        "action": "Click",
+        "target": [
+            966,
+            66,
+            24,
+            16
+        ],
+        "next": [
+            "暗香赠礼.领紫核"
+        ]
+    },
+    "暗香赠礼.领紫核": {
+        "recognition": "TemplateMatch",
+        "template": "暗香赠礼紫核.png",
+        "roi": [
+            1112,
+            389,
+            115,
+            107
+        ],
+        "action": "Click",
+        "next": [
+            "暗香赠礼.领紫核2",
+            "暗香赠礼.已领紫核"
+        ]
+    },
+    "暗香赠礼.领紫核2": {
+        "recognition": "TemplateMatch",
+        "template": "点击空白处关闭.png",
+        "roi": [
+            551,
+            599,
+            175,
+            56
+        ],
+        "action": "Click"
+    },
+    "暗香赠礼.已领紫核": {
+        "recognition": "OCR",
+        "expected": [
+            "物品详情"
+        ],
+        "roi": [
+            223,
+            155,
+            163,
+            42
+        ],
+        "action": "Click",
+        "target": [
+            1050,
+            160,
+            23,
+            25
+        ],
+        "next": [
+            "暗香赠礼.返回主页"
+        ]
+    },
+    "暗香赠礼.返回主页": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页2.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
+    },
+    "无暗香赠礼": {
+        "action": "Click",
+        "target": [
+            1215,
+            41,
+            27,
+            22
+        ]
+    }
+}
