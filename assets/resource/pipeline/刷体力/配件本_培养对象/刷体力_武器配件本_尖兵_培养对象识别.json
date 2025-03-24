@@ -270,7 +270,7 @@
     "乌尔丽德3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "尖兵"
         ],
         "roi": [
             135,
@@ -330,7 +330,7 @@
     "朝晖3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "尖兵"
         ],
         "roi": [
             135,
@@ -390,7 +390,7 @@
     "比悠卡3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "尖兵"
         ],
         "roi": [
             135,
@@ -450,7 +450,7 @@
     "秋桦3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "尖兵"
         ],
         "roi": [
             135,

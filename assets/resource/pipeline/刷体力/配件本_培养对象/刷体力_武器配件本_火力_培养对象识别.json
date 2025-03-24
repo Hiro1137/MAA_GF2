@@ -570,7 +570,7 @@
     "绛雨3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "火力"
         ],
         "roi": [
             135,
@@ -630,7 +630,7 @@
     "玛绮朵3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "火力"
         ],
         "roi": [
             135,
@@ -690,7 +690,7 @@
     "洛塔3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "火力"
         ],
         "roi": [
             135,
@@ -750,7 +750,7 @@
     "妮基塔3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "火力"
         ],
         "roi": [
             135,
@@ -767,6 +767,66 @@
         "recognition": "OCR",
         "expected": [
             "妮基塔"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "莱娅1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莱娅2"
+        ]
+    },
+    "莱娅2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "莱娅3"
+        ]
+    },
+    "莱娅3": {
+        "recognition": "OCR",
+        "expected": [
+            "火力"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莱娅4"
+        ]
+    },
+    "莱娅4": {
+        "recognition": "OCR",
+        "expected": [
+            "莱娅"
         ],
         "roi": [
             130,

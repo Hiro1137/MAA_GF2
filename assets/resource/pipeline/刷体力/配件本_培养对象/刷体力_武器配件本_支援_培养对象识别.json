@@ -330,7 +330,7 @@
     "桑朵莱希3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "支援"
         ],
         "roi": [
             135,
@@ -390,7 +390,7 @@
     "索米3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "支援"
         ],
         "roi": [
             135,
@@ -450,7 +450,7 @@
     "杜莎妮3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "支援"
         ],
         "roi": [
             135,
@@ -510,7 +510,7 @@
     "米什缇3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "支援"
         ],
         "roi": [
             135,
@@ -570,7 +570,7 @@
     "维克托3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "支援"
         ],
         "roi": [
             135,
@@ -630,7 +630,7 @@
     "春田3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "支援"
         ],
         "roi": [
             135,
@@ -690,7 +690,7 @@
     "佩莉3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "支援"
         ],
         "roi": [
             135,
@@ -750,7 +750,7 @@
     "幼熙3": {
         "recognition": "OCR",
         "expected": [
-            "防卫"
+            "支援"
         ],
         "roi": [
             135,
