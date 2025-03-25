@@ -1,0 +1,242 @@
+{
+    "玛绮朵1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "玛绮朵2"
+        ]
+    },
+    "玛绮朵2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "玛绮朵3"
+        ]
+    },
+    "玛绮朵3": {
+        "recognition": "OCR",
+        "expected": [
+            "冷凝"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "玛绮朵4"
+        ]
+    },
+    "玛绮朵4": {
+        "recognition": "OCR",
+        "expected": [
+            "玛绮朵"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "洛塔1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "洛塔2"
+        ]
+    },
+    "洛塔2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "洛塔3"
+        ]
+    },
+    "洛塔3": {
+        "recognition": "OCR",
+        "expected": [
+            "冷凝"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "洛塔4"
+        ]
+    },
+    "洛塔4": {
+        "recognition": "OCR",
+        "expected": [
+            "洛塔"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "杜莎妮1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "杜莎妮2"
+        ]
+    },
+    "杜莎妮2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "杜莎妮3"
+        ]
+    },
+    "杜莎妮3": {
+        "recognition": "OCR",
+        "expected": [
+            "冷凝"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "杜莎妮4"
+        ]
+    },
+    "杜莎妮4": {
+        "recognition": "OCR",
+        "expected": [
+            "杜莎妮"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "索米1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "索米2"
+        ]
+    },
+    "索米2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "索米3"
+        ]
+    },
+    "索米3": {
+        "recognition": "OCR",
+        "expected": [
+            "冷凝"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "索米4"
+        ]
+    },
+    "索米4": {
+        "recognition": "OCR",
+        "expected": [
+            "索米"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    }
+}

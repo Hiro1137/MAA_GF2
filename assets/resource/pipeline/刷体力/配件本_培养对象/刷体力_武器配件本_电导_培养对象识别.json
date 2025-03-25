@@ -1,0 +1,362 @@
+{
+    "莫辛纳甘1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莫辛纳甘2"
+        ]
+    },
+    "莫辛纳甘2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "莫辛纳甘3"
+        ]
+    },
+    "莫辛纳甘3": {
+        "recognition": "OCR",
+        "expected": [
+            "电导"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莫辛纳甘4"
+        ]
+    },
+    "莫辛纳甘4": {
+        "recognition": "OCR",
+        "expected": [
+            "莫辛纳甘"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "绛雨1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "绛雨2"
+        ]
+    },
+    "绛雨2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "绛雨3"
+        ]
+    },
+    "绛雨3": {
+        "recognition": "OCR",
+        "expected": [
+            "电导"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "绛雨4"
+        ]
+    },
+    "绛雨4": {
+        "recognition": "OCR",
+        "expected": [
+            "绛雨"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "莱娅1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莱娅2"
+        ]
+    },
+    "莱娅2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "莱娅3"
+        ]
+    },
+    "莱娅3": {
+        "recognition": "OCR",
+        "expected": [
+            "电导"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莱娅4"
+        ]
+    },
+    "莱娅4": {
+        "recognition": "OCR",
+        "expected": [
+            "莱娅"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "比悠卡1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "比悠卡2"
+        ]
+    },
+    "比悠卡2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "比悠卡3"
+        ]
+    },
+    "比悠卡3": {
+        "recognition": "OCR",
+        "expected": [
+            "电导"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "比悠卡4"
+        ]
+    },
+    "比悠卡4": {
+        "recognition": "OCR",
+        "expected": [
+            "比悠卡"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "莱娜1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莱娜2"
+        ]
+    },
+    "莱娜2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "莱娜3"
+        ]
+    },
+    "莱娜3": {
+        "recognition": "OCR",
+        "expected": [
+            "电导"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "莱娜4"
+        ]
+    },
+    "莱娜4": {
+        "recognition": "OCR",
+        "expected": [
+            "莱娜"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "安朵丝1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "安朵丝2"
+        ]
+    },
+    "安朵丝2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "安朵丝3"
+        ]
+    },
+    "安朵丝3": {
+        "recognition": "OCR",
+        "expected": [
+            "电导"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "安朵丝4"
+        ]
+    },
+    "安朵丝4": {
+        "recognition": "OCR",
+        "expected": [
+            "安朵丝"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    }
+}

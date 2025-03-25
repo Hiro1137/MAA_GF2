@@ -1,0 +1,362 @@
+{
+    "纳美西丝1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "纳美西丝2"
+        ]
+    },
+    "纳美西丝2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "纳美西丝3"
+        ]
+    },
+    "纳美西丝3": {
+        "recognition": "OCR",
+        "expected": [
+            "浊刻"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "纳美西丝4"
+        ]
+    },
+    "纳美西丝4": {
+        "recognition": "OCR",
+        "expected": [
+            "纳美西丝"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "托洛洛1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "托洛洛2"
+        ]
+    },
+    "托洛洛2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "托洛洛3"
+        ]
+    },
+    "托洛洛3": {
+        "recognition": "OCR",
+        "expected": [
+            "浊刻"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "托洛洛4"
+        ]
+    },
+    "托洛洛4": {
+        "recognition": "OCR",
+        "expected": [
+            "托洛洛"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "朝晖1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "朝晖2"
+        ]
+    },
+    "朝晖2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "朝晖3"
+        ]
+    },
+    "朝晖3": {
+        "recognition": "OCR",
+        "expected": [
+            "浊刻"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "朝晖4"
+        ]
+    },
+    "朝晖4": {
+        "recognition": "OCR",
+        "expected": [
+            "朝晖"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "塞布丽娜1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "塞布丽娜2"
+        ]
+    },
+    "塞布丽娜2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "塞布丽娜3"
+        ]
+    },
+    "塞布丽娜3": {
+        "recognition": "OCR",
+        "expected": [
+            "浊刻"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "塞布丽娜4"
+        ]
+    },
+    "塞布丽娜4": {
+        "recognition": "OCR",
+        "expected": [
+            "塞布丽娜"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "春田1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "春田2"
+        ]
+    },
+    "春田2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "春田3"
+        ]
+    },
+    "春田3": {
+        "recognition": "OCR",
+        "expected": [
+            "浊刻"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "春田4"
+        ]
+    },
+    "春田4": {
+        "recognition": "OCR",
+        "expected": [
+            "春田"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    },
+    "寇尔芙1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "寇尔芙2"
+        ]
+    },
+    "寇尔芙2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "寇尔芙3"
+        ]
+    },
+    "寇尔芙3": {
+        "recognition": "OCR",
+        "expected": [
+            "浊刻"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "寇尔芙4"
+        ]
+    },
+    "寇尔芙4": {
+        "recognition": "OCR",
+        "expected": [
+            "寇尔芙"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
+    }
+}
