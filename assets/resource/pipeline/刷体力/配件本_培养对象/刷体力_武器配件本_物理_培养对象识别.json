@@ -538,5 +538,65 @@
         "next": [
             "培养对象确认"
         ]
+    },
+    "莱妮1": {
+        "recognition": "OCR",
+        "expected": [
+            "全部"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "闪电2"
+        ]
+    },
+    "莱妮2": {
+        "action": "Click",
+        "target": [
+            274,
+            210,
+            135,
+            43
+        ],
+        "next": [
+            "闪电3"
+        ]
+    },
+    "莱妮3": {
+        "recognition": "OCR",
+        "expected": [
+            "物理"
+        ],
+        "roi": [
+            135,
+            125,
+            1008,
+            51
+        ],
+        "action": "Click",
+        "next": [
+            "闪电4"
+        ]
+    },
+    "莱妮4": {
+        "recognition": "OCR",
+        "expected": [
+            "闪电"
+        ],
+        "roi": [
+            130,
+            173,
+            1012,
+            360
+        ],
+        "action": "Click",
+        "next": [
+            "培养对象确认"
+        ]
     }
 }

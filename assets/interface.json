@@ -459,6 +459,27 @@
                     }
                 },
                 {
+                    "name": "莱妮",
+                    "pipeline_override": {
+                        "开始选择培养对象": {
+                            "recognition": "OCR",
+                            "expected": [
+                                "培养中"
+                            ],
+                            "roi": [
+                                66,
+                                148,
+                                163,
+                                54
+                            ],
+                            "action": "Click",
+                            "next": [
+                                "莱妮1"
+                            ]
+                        }
+                    }
+                },
+                {
                     "name": "夏克里",
                     "pipeline_override": {
                         "开始选择培养对象": {
