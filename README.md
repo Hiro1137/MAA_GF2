@@ -1,10 +1,3 @@
-<div align="center">
-
- ### WIP
- 别急，还在边学边改（
- 
- </div>
-
 # MAA for 少前2 
 
 基于MAA框架的少前2半自动长草小助手
