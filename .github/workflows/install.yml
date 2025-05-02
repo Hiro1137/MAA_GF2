@@ -79,15 +79,8 @@ jobs:
           repository: SweetSmellFox/MFAAvalonia
           fileName: "MFAAvalonia-*-win-x64*"
           latest: true
-          out-file-path: "MFAAvalonia"
+          out-file-path: "MFA"
           extract: true
-
-      - name: Install MFAAvalonia
-        if: ${{ matrix.os != 'android' }}
-        shell: bash
-        run: |
-          rm -rf MFAAvalonia/resource/base/model
-          cp -r MFAAvalonia/* install
 
       - name: Install
         shell: bash
