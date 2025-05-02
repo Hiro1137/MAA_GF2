@@ -63,13 +63,6 @@ jobs:
         with:
           submodules: true
 
-      - name: Install
-        shell: bash
-        run: |
-          python ./install.py ${{ needs.meta.outputs.tag }}
-          jq --arg version_name "MAA_GF2" --arg url ""https://github.com/Hiro1137/MAA_GF2"" --arg version ${{ needs.meta.outputs.tag }} '. + {"name": $version_name, "url": $url,"version": $version}' ./assets/interface.json > ./install/interface.json
-
-
       - name: Download MaaFramework
         uses: robinraju/release-downloader@v1
         with:
@@ -97,6 +90,12 @@ jobs:
           rm -rf MFAAvalonia/resource/base/model
           cp -r MFAAvalonia/* install
 
+      - name: Install
+        shell: bash
+        run: |
+          python ./tools/install.py ${{ needs.meta.outputs.tag }}
+          cp MFA/MFAAvalonia.exe MFA/MFAUpdater.exe MFA/MFAUpdater.dll MFA/MFAUpdater.runtimeconfig.json MFA/av_libglesv2.dll MFA/libHarfBuzzSharp.dll MFA/libonigwrap.dll MFA/libSkiaSharp.dll MFA/uiohook.dll install/
+          
       - uses: actions/upload-artifact@v4
         with:
           name: MAAGF2-${{ matrix.os }}-${{ matrix.arch }}
