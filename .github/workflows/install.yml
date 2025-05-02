@@ -97,7 +97,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: MAAGF2-${{ matrix.os }}-${{ matrix.arch }}
+          name: MAAGF2-win-${{ matrix.arch }}
           path: "install"
 
   release:
