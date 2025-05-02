@@ -55,7 +55,7 @@ jobs:
     strategy:
       matrix:
         os: [win]
-        arch: [x64]
+        arch: [x86_64]
       fail-fast: false
 
     steps:
@@ -95,7 +95,7 @@ jobs:
         run: |
           python ./tools/install.py ${{ needs.meta.outputs.tag }}
           cp MFA/MFAAvalonia.exe MFA/MFAUpdater.exe MFA/MFAUpdater.dll MFA/MFAUpdater.runtimeconfig.json MFA/av_libglesv2.dll MFA/libHarfBuzzSharp.dll MFA/libonigwrap.dll MFA/libSkiaSharp.dll MFA/uiohook.dll install/
-          
+
       - uses: actions/upload-artifact@v4
         with:
           name: MAAGF2-${{ matrix.os }}-${{ matrix.arch }}
