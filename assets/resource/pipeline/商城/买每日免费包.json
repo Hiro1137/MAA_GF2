@@ -115,6 +115,29 @@
         ],
         "action": "Click",
         "next": [
+            "每日补给箱.点击关闭"
+        ],
+        "on_error": [
+            "商城.返回主页2"
+        ]
+    },
+    "每日补给箱.点击关闭": {
+        "recognition": "TemplateMatch",
+        "template": "信用币.png",
+        "roi": [
+            1108,
+            14,
+            59,
+            55
+        ],
+        "action": "Click",
+        "target": [
+            1113,
+            117,
+            26,
+            22
+        ],
+        "next": [
             "商城.返回主页2"
         ]
     },
