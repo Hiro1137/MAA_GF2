@@ -163,6 +163,7 @@
         ]
     },
     "美味烹调.每日首次.点击跳过": {
+        "pre_wait_freezes": 3000,
         "recognition": "OCR",
         "expected": [
             "自动"
@@ -186,6 +187,7 @@
         ]
     },
     "美味烹调.每日首次.点击对话": {
+        "pre_wait_freezes": 3000,
         "recognition": "TemplateMatch",
         "template": "美味烹调.对话.png",
         "roi": [
@@ -240,6 +242,7 @@
         ]
     },
     "美味烹调.已存在buff.点击跳过": {
+        "pre_wait_freezes": 3000,
         "recognition": "OCR",
         "expected": [
             "自动"
@@ -263,6 +266,7 @@
         ]
     },
     "美味烹调.已存在buff.点击对话": {
+        "pre_wait_freezes": 3000,
         "recognition": "TemplateMatch",
         "template": "美味烹调.对话.png",
         "roi": [
@@ -302,50 +306,58 @@
             51,
             54
         ],
-        "action": "Click"
-    },
-    "活动层.打开奖励2": {
-        "recognition": "OCR",
-        "expected": [
-            "逸趣导算"
-        ],
-        "roi": [
-            546,
-            31,
-            188,
-            71
-        ],
-        "action": "Swipe",
-        "begin": [
-            624,
-            588,
-            1,
-            1
-        ],
-        "end": [
-            628,
-            311,
-            1,
-            1
-        ],
+        "action": "Click",
         "next": [
             "活动层.领奖励1"
+        ]
+    },
+    "活动层.领奖励1": {
+        "recognition": "OCR",
+        "expected": [
+            "一键领取"
+        ],
+        "roi": [
+            826,
+            606,
+            295,
+            61
+        ],
+        "action": "Click",
+        "next": [
+            "活动层升级",
+            "活动层.领奖励.获得道具"
         ],
         "on_error": [
             "活动层.无奖励"
         ]
     },
-    "活动层.领奖励1": {
-        "recognition": "TemplateMatch",
-        "template": "",
+    "活动层升级": {
+        "recognition": "OCR",
+        "expected": "活动层等级提升",
         "roi": [
-            436,
-            278,
-            675,
-            387
+            527,
+            167,
+            226,
+            69
         ],
         "action": "Click",
-        "next": []
+        "next": [
+            "活动层.领奖励.获得道具"
+        ]
+    },
+    "活动层.领奖励.获得道具": {
+        "recognition": "OCR",
+        "expected": "获得道具",
+        "roi": [
+            538,
+            64,
+            198,
+            67
+        ],
+        "action": "Click",
+        "next": [
+            "活动层.领奖励1"
+        ]
     },
     "活动层.无奖励": {
         "recognition": "OCR",
