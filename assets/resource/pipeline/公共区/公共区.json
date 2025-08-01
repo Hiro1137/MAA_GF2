@@ -2,13 +2,13 @@
     "公共区收菜": {
         "recognition": "OCR",
         "expected": [
-            "公共区"
+            "委托"
         ],
         "roi": [
-            1123,
-            311,
-            95,
-            48
+            805,
+            605,
+            65,
+            80
         ],
         "action": "Click",
         "next": [
@@ -16,13 +16,15 @@
         ]
     },
     "调度室": {
-        "recognition": "TemplateMatch",
-        "template": "调度室.png",
+        "recognition": "OCR",
+        "expected": [
+            "前往"
+        ],
         "roi": [
-            64,
-            268,
-            66,
-            68
+            40,
+            606,
+            302,
+            78
         ],
         "action": "Click",
         "next": [

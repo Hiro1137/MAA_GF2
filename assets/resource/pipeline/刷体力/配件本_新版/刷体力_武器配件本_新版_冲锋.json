@@ -83,7 +83,7 @@
     },
     "冲锋.定向精研选关1": {
         "recognition": "TemplateMatch",
-        "template": "冲锋.定向精研最佳关卡.png",
+        "template": "无拆解配件.png",
         "roi": [
             45,
             219,
@@ -149,7 +149,7 @@
     },
     "冲锋.定向精研选关.选择组合1": {
         "recognition": "TemplateMatch",
-        "template": "冲锋.定向精研选关.选择组合.png",
+        "template": "无拆解配件.png",
         "roi": [
             178,
             240,
@@ -178,23 +178,15 @@
         ]
     },
     "冲锋.定向精研选关.选择自律次数1": {
-        "recognition": "OCR",
-        "expected": [
-            "自律作战次数"
+        "recognition": "TemplateMatch",
+        "template": "auto最大.png",
+        "roi": [
+            919,
+            415,
+            88,
+            57
         ],
-        "action": "Swipe",
-        "begin": [
-            413,
-            443,
-            1,
-            1
-        ],
-        "end": [
-            665,
-            444,
-            1,
-            1
-        ],
+        "action": "Click",
         "next": [
             "冲锋.定向精研.开始自律1"
         ]
@@ -230,7 +222,7 @@
         ],
         "action": "Click",
         "next": [
-            "冲锋.定向精研选关.点击自律2"
+            "冲锋.定向精研选关.点击自律1"
         ]
     },
     "冲锋.定向精研.体力不足1": {
@@ -264,88 +256,7 @@
             21
         ],
         "next": [
-            "冲锋.定向精研选关.点击自律2"
-        ]
-    },
-    "冲锋.定向精研选关.点击自律2": {
-        "recognition": "OCR",
-        "expected": [
-            "自律"
-        ],
-        "roi": [
-            843,
-            631,
-            118,
-            43
-        ],
-        "action": "Click",
-        "next": [
-            "冲锋.定向精研选关.选择组合2",
-            "冲锋.定向精研.体力不足2",
-            "冲锋.定向精研.配件到达上限"
-        ]
-    },
-    "冲锋.定向精研选关.选择组合2": {
-        "recognition": "TemplateMatch",
-        "template": "冲锋.定向精研选关.选择组合.png",
-        "roi": [
-            178,
-            240,
-            315,
-            84
-        ],
-        "action": "Click",
-        "next": [
-            "冲锋.定向精研选关.下一步2"
-        ]
-    },
-    "冲锋.定向精研选关.下一步2": {
-        "recognition": "OCR",
-        "expected": [
-            "下一步"
-        ],
-        "roi": [
-            763,
-            601,
-            139,
-            47
-        ],
-        "action": "Click",
-        "next": [
-            "冲锋.定向精研.开始自律2"
-        ]
-    },
-    "冲锋.定向精研.开始自律2": {
-        "recognition": "OCR",
-        "expected": [
-            "确认"
-        ],
-        "roi": [
-            775,
-            600,
-            106,
-            50
-        ],
-        "action": "Click",
-        "next": [
-            "冲锋.定向精研.点击空白处关闭2",
-            "冲锋.定向精研.配件到达上限"
-        ]
-    },
-    "冲锋.定向精研.点击空白处关闭2": {
-        "recognition": "OCR",
-        "expected": [
-            "点击空白处关闭"
-        ],
-        "roi": [
-            551,
-            598,
-            172,
-            61
-        ],
-        "action": "Click",
-        "next": [
-            "冲锋.定向精研选关.点击自律2"
+            "冲锋.定向精研.返回主页"
         ]
     },
     "冲锋.定向精研.体力不足2": {
@@ -400,19 +311,54 @@
             36
         ],
         "next": [
-            "冲锋.拆配件1"
+            "冲锋.拆配件0"
+        ]
+    },
+    "冲锋.拆配件0": {
+        "recognition": "OCR",
+        "expected": [
+            "拆解"
+        ],
+        "roi": [
+            687,
+            13,
+            561,
+            61
+        ],
+        "action": "Click",
+        "next": [
+            "冲锋.拆配件1",
+            "冲锋.拆配件1.1"
         ]
     },
     "冲锋.拆配件1": {
-        "recognition": "TemplateMatch",
-        "template": "拆解.png",
+        "recognition": "OCR",
+        "expected": [
+            "人形武器"
+        ],
         "roi": [
-            40,
-            632,
-            59,
-            60
+            120,
+            85,
+            127,
+            40
         ],
         "action": "Click",
+        "target": [
+            54,
+            190,
+            24,
+            25
+        ],
+        "next": [
+            "冲锋.拆配件2"
+        ]
+    },
+    "冲锋.拆配件1.1": {
+        "recognition": "OCR",
+        "expected": [
+            "武器配件"
+        ],
+        "action": "DoNothing",
         "next": [
             "冲锋.拆配件2"
         ]
@@ -455,10 +401,10 @@
             "快捷选择"
         ],
         "roi": [
-            670,
-            486,
-            139,
-            41
+            699,
+            502,
+            177,
+            53
         ],
         "action": "Click",
         "next": [
@@ -470,9 +416,9 @@
         "recognition": "TemplateMatch",
         "template": "拆解2.png",
         "roi": [
-            871,
-            633,
-            359,
+            898,
+            644,
+            342,
             65
         ],
         "action": "Click",
@@ -485,10 +431,10 @@
         "recognition": "TemplateMatch",
         "template": "无拆解配件.png",
         "roi": [
-            865,
-            633,
-            366,
-            61
+            898,
+            645,
+            343,
+            65
         ],
         "action": "Click",
         "target": [

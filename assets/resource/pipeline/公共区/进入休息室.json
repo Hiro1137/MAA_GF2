@@ -2,13 +2,13 @@
     "进入休息室": {
         "recognition": "OCR",
         "expected": [
-            "公共区"
+            "整备室"
         ],
         "roi": [
-            1121,
-            312,
-            107,
-            52
+            1111,
+            230,
+            128,
+            63
         ],
         "action": "Click",
         "next": [
@@ -19,10 +19,10 @@
         "recognition": "TemplateMatch",
         "template": "休息室.png",
         "roi": [
-            56,
-            150,
-            79,
-            74
+            789,
+            647,
+            47,
+            45
         ],
         "action": "Click",
         "next": [
@@ -40,10 +40,24 @@
         ],
         "action": "Click",
         "target": [
-            96,
-            19,
-            52,
-            47
+            38,
+            31,
+            18,
+            25
+        ],
+        "next": [
+            "休息室.返回主页2"
         ]
+    },
+    "休息室.返回主页2": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页2.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
     }
 }
