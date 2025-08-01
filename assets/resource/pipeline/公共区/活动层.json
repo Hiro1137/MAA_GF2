@@ -1,0 +1,405 @@
+{
+    "进入活动层": {
+        "recognition": "OCR",
+        "expected": [
+            "活动层"
+        ],
+        "roi": [
+            1109,
+            303,
+            134,
+            64
+        ],
+        "action": "Click",
+        "next": [
+            "活动层加载中"
+        ]
+    },
+    "活动层加载中": {
+        "recognition": "OCR",
+        "expected": [
+            "移动中"
+        ],
+        "roi": [
+            972,
+            472,
+            140,
+            36
+        ],
+        "action": "DoNothing",
+        "next": [
+            "活动层加载中",
+            "活动层加载完成"
+        ]
+    },
+    "活动层加载完成": {
+        "recognition": "TemplateMatch",
+        "template": "活动层地图图标.png",
+        "roi": [
+            95,
+            13,
+            61,
+            62
+        ],
+        "action": "Click",
+        "next": [
+            "点击快捷前往"
+        ]
+    },
+    "点击快捷前往": {
+        "recognition": "OCR",
+        "expected": [
+            "快捷前往"
+        ],
+        "roi": [
+            1046,
+            629,
+            160,
+            74
+        ],
+        "action": "Click",
+        "next": [
+            "点击休憩大厅"
+        ]
+    },
+    "点击休憩大厅": {
+        "recognition": "OCR",
+        "expected": [
+            "休憩大厅"
+        ],
+        "roi": [
+            872,
+            80,
+            162,
+            413
+        ],
+        "action": "Click",
+        "target_offset": [
+            341,
+            26,
+            -140,
+            -390
+        ],
+        "next": [
+            "向后走"
+        ]
+    },
+    "向后走": {
+        "recognition": "TemplateMatch",
+        "template": "活动层地图图标.png",
+        "roi": [
+            95,
+            13,
+            61,
+            62
+        ],
+        "action": "Swipe",
+        "begin": [
+            198,
+            544,
+            1,
+            1
+        ],
+        "end": [
+            192,
+            715,
+            1,
+            1
+        ],
+        "duration": 1000,
+        "next": [
+            "点击美味烹调"
+        ]
+    },
+    "点击美味烹调": {
+        "recognition": "OCR",
+        "expected": [
+            "美味烹调"
+        ],
+        "roi": [
+            801,
+            321,
+            157,
+            72
+        ],
+        "action": "Click",
+        "next": [
+            "美味烹调.下一步"
+        ]
+    },
+    "美味烹调.下一步": {
+        "recognition": "OCR",
+        "expected": [
+            "下一步"
+        ],
+        "roi": [
+            974,
+            647,
+            144,
+            49
+        ],
+        "action": "Click",
+        "next": [
+            "美味烹调.确认邀请"
+        ]
+    },
+    "美味烹调.确认邀请": {
+        "recognition": "OCR",
+        "expected": [
+            "确认邀请"
+        ],
+        "roi": [
+            936,
+            645,
+            217,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "美味烹调.已存在buff"
+        ],
+        "on_error": [
+            "美味烹调.每日首次.点击跳过"
+        ]
+    },
+    "美味烹调.每日首次.点击跳过": {
+        "recognition": "OCR",
+        "expected": [
+            "自动"
+        ],
+        "roi": [
+            1014,
+            13,
+            132,
+            54
+        ],
+        "action": "Click",
+        "target": [
+            1161,
+            27,
+            62,
+            20
+        ],
+        "next": [
+            "美味烹调.每日首次.点击对话",
+            "美味烹调.每日首次.已完成"
+        ]
+    },
+    "美味烹调.每日首次.点击对话": {
+        "recognition": "TemplateMatch",
+        "template": "美味烹调.对话.png",
+        "roi": [
+            776,
+            402,
+            46,
+            41
+        ],
+        "timeout": 30000,
+        "action": "Click",
+        "next": [
+            "美味烹调.每日首次.点击跳过"
+        ]
+    },
+    "美味烹调.每日首次.已完成": {
+        "recognition": "OCR",
+        "expected": [
+            "确认"
+        ],
+        "roi": [
+            747,
+            508,
+            175,
+            54
+        ],
+        "action": "Click",
+        "next": [
+            "活动层加载完成"
+        ]
+    },
+    "美味烹调.已存在buff": {
+        "recognition": "OCR",
+        "expected": [
+            "是否确认更换"
+        ],
+        "roi": [
+            320,
+            269,
+            634,
+            142
+        ],
+        "action": "Click",
+        "target": [
+            781,
+            524,
+            106,
+            34
+        ],
+        "timeout": 30000,
+        "next": [
+            "美味烹调.已存在buff.点击跳过"
+        ]
+    },
+    "美味烹调.已存在buff.点击跳过": {
+        "recognition": "OCR",
+        "expected": [
+            "自动"
+        ],
+        "roi": [
+            1014,
+            13,
+            132,
+            54
+        ],
+        "action": "Click",
+        "target": [
+            1161,
+            27,
+            62,
+            20
+        ],
+        "next": [
+            "美味烹调.已存在buff.点击对话",
+            "美味烹调.已存在buff.已完成"
+        ]
+    },
+    "美味烹调.已存在buff.点击对话": {
+        "recognition": "TemplateMatch",
+        "template": "美味烹调.对话.png",
+        "roi": [
+            776,
+            402,
+            46,
+            41
+        ],
+        "timeout": 30000,
+        "action": "Click",
+        "next": [
+            "美味烹调.已存在buff.点击跳过"
+        ]
+    },
+    "美味烹调.已存在buff.已完成": {
+        "recognition": "OCR",
+        "expected": [
+            "确认"
+        ],
+        "roi": [
+            747,
+            508,
+            175,
+            54
+        ],
+        "action": "Click",
+        "next": [
+            "活动层.打开奖励1"
+        ]
+    },
+    "活动层.打开奖励1": {
+        "recognition": "TemplateMatch",
+        "template": "活动层.打开奖励.png",
+        "roi": [
+            841,
+            15,
+            51,
+            54
+        ],
+        "action": "Click"
+    },
+    "活动层.打开奖励2": {
+        "recognition": "OCR",
+        "expected": [
+            "逸趣导算"
+        ],
+        "roi": [
+            546,
+            31,
+            188,
+            71
+        ],
+        "action": "Swipe",
+        "begin": [
+            624,
+            588,
+            1,
+            1
+        ],
+        "end": [
+            628,
+            311,
+            1,
+            1
+        ],
+        "next": [
+            "活动层.领奖励1"
+        ],
+        "on_error": [
+            "活动层.无奖励"
+        ]
+    },
+    "活动层.领奖励1": {
+        "recognition": "TemplateMatch",
+        "template": "",
+        "roi": [
+            436,
+            278,
+            675,
+            387
+        ],
+        "action": "Click",
+        "next": []
+    },
+    "活动层.无奖励": {
+        "recognition": "OCR",
+        "expected": [
+            "逸趣导算"
+        ],
+        "roi": [
+            546,
+            31,
+            188,
+            71
+        ],
+        "action": "Click",
+        "target": [
+            1079,
+            53,
+            39,
+            22
+        ],
+        "next": [
+            "离开活动层1"
+        ]
+    },
+    "离开活动层1": {
+        "recognition": "TemplateMatch",
+        "template": "离开活动层.png",
+        "roi": [
+            15,
+            17,
+            63,
+            58
+        ],
+        "action": "Click",
+        "next": [
+            "离开活动层2"
+        ]
+    },
+    "离开活动层2": {
+        "recognition": "OCR",
+        "expected": [
+            "是否离开活动层"
+        ],
+        "roi": [
+            500,
+            296,
+            277,
+            90
+        ],
+        "action": "Click",
+        "target": [
+            799,
+            523,
+            62,
+            34
+        ]
+    }
+}
