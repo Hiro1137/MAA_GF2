@@ -36,9 +36,9 @@
         "recognition": "TemplateMatch",
         "template": "活动层地图图标.png",
         "roi": [
-            95,
             13,
-            61,
+            17,
+            242,
             62
         ],
         "action": "Click",
@@ -88,9 +88,9 @@
         "recognition": "TemplateMatch",
         "template": "活动层地图图标.png",
         "roi": [
-            95,
             13,
-            61,
+            17,
+            242,
             62
         ],
         "action": "Swipe",
@@ -331,10 +331,10 @@
         "recognition": "TemplateMatch",
         "template": "活动层.打开奖励.png",
         "roi": [
-            841,
-            15,
-            51,
-            54
+            755,
+            0,
+            524,
+            79
         ],
         "action": "Click",
         "timeout": 5000,
