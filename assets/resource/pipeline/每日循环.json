@@ -1,0 +1,83 @@
+{
+    "进入每日循环": {
+        "recognition": "TemplateMatch",
+        "template": "每日循环.png",
+        "roi": [
+            309,
+            603,
+            66,
+            50
+        ],
+        "action": "Click",
+        "next": [
+            "开始循环"
+        ]
+    },
+    "开始循环": {
+        "recognition": "OCR",
+        "expected": [
+            "开始循环"
+        ],
+        "roi": [
+            49,
+            620,
+            326,
+            70
+        ],
+        "action": "Click",
+        "post_delay": 10000,
+        "next": [
+            "循环完成",
+            "已完成每日循环"
+        ]
+    },
+    "已完成每日循环": {
+        "recognition": "OCR",
+        "expected": [
+            "开始循环"
+        ],
+        "roi": [
+            49,
+            620,
+            326,
+            70
+        ],
+        "action": "DoNothing",
+        "next": [
+            "每日循环.返回主页"
+        ]
+    },
+    "循环完成": {
+        "recognition": "OCR",
+        "expected": [
+            "循环结束"
+        ],
+        "roi": [
+            533,
+            22,
+            222,
+            74
+        ],
+        "action": "Click",
+        "target": [
+            613,
+            628,
+            66,
+            23
+        ],
+        "next": [
+            "每日循环.返回主页"
+        ]
+    },
+    "每日循环.返回主页": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页2.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
+    }
+}
