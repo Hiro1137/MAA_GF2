@@ -1,0 +1,246 @@
+{
+    "实兵只领奖励.进入关卡选择": {
+        "recognition": "TemplateMatch",
+        "template": "战役推进.png",
+        "roi": [
+            991,
+            51,
+            255,
+            95
+        ],
+        "action": "Click",
+        "next": [
+            "实兵只领奖励.模拟作战"
+        ]
+    },
+    "实兵只领奖励.模拟作战": {
+        "recognition": "OCR",
+        "expected": [
+            "模拟作战"
+        ],
+        "roi": [
+            1081,
+            19,
+            122,
+            49
+        ],
+        "action": "Click",
+        "next": [
+            "实兵只领奖励.实兵演习"
+        ]
+    },
+    "实兵只领奖励.实兵演习": {
+        "recognition": "TemplateMatch",
+        "template": "实兵演习.png",
+        "roi": [
+            633,
+            98,
+            277,
+            519
+        ],
+        "action": "Click",
+        "post_wait_freezes": 5000,
+        "next": [
+            "实兵只领奖励.周期结算",
+            "实兵只领奖励.新周期",
+            "实兵只领奖励.领周期奖励"
+        ]
+    },
+    "实兵只领奖励.周期结算": {
+        "recognition": "OCR",
+        "expected": [
+            "周期结算"
+        ],
+        "roi": [
+            563,
+            315,
+            153,
+            56
+        ],
+        "action": "Click",
+        "next": [
+            "实兵只领奖励.新周期"
+        ]
+    },
+    "实兵只领奖励.新周期": {
+        "recognition": "OCR",
+        "expected": [
+            "新周期"
+        ],
+        "roi": [
+            585,
+            267,
+            106,
+            45
+        ],
+        "action": "Click",
+        "next": [
+            "实兵只领奖励.每周结算3"
+        ],
+        "on_error": [
+            "实兵只领奖励.领周期奖励"
+        ]
+    },
+    "实兵只领奖励.每周结算3": {
+        "recognition": "OCR",
+        "expected": [
+            "您已重置为"
+        ],
+        "roi": [
+            445,
+            490,
+            384,
+            89
+        ],
+        "action": "Click",
+        "pre_wait_freezes": 2500,
+        "next": [
+            "实兵只领奖励.领周期奖励"
+        ]
+    },
+    "实兵只领奖励.点击任意位置继续": {
+        "recognition": "TemplateMatch",
+        "template": "实兵.点击任意位置继续.png",
+        "roi": [
+            538,
+            619,
+            200,
+            58
+        ],
+        "action": "Click",
+        "next": [
+            "实兵只领奖励.点击任意位置继续"
+        ]
+    },
+    "实兵只领奖励.领周期奖励": {
+        "recognition": "OCR",
+        "expected": [
+            "周期奖励"
+        ],
+        "roi": [
+            56,
+            210,
+            227,
+            60
+        ],
+        "action": "Click",
+        "next": [
+            "实兵只领奖励.领排名奖励0"
+        ]
+    },
+    "实兵只领奖励.领排名奖励0": {
+        "recognition": "OCR",
+        "expected": [
+            "排名奖励"
+        ],
+        "roi": [
+            563,
+            99,
+            151,
+            46
+        ],
+        "action": "Click",
+        "target": [
+            870,
+            560,
+            68,
+            19
+        ],
+        "next": [
+            "实兵只领奖励.领参与奖励0"
+        ]
+    },
+    "实兵只领奖励.领参与奖励0": {
+        "recognition": "OCR",
+        "expected": [
+            "参与奖励"
+        ],
+        "roi": [
+            778,
+            174,
+            117,
+            42
+        ],
+        "action": "Click",
+        "next": [
+            "实兵只领奖励.领参与奖励1"
+        ],
+        "timeout": 5000,
+        "on_error": [
+            "实兵只领奖励.无参与奖励"
+        ]
+    },
+    "实兵只领奖励.领参与奖励1": {
+        "recognition": "OCR",
+        "expected": [
+            "一键领取"
+        ],
+        "roi": [
+            771,
+            551,
+            258,
+            47
+        ],
+        "action": "Click",
+        "next": [
+            "实兵只领奖励.领参与奖励2"
+        ]
+    },
+    "实兵只领奖励.领参与奖励2": {
+        "recognition": "OCR",
+        "expected": [
+            "获得道具"
+        ],
+        "roi": [
+            534,
+            74,
+            193,
+            58
+        ],
+        "action": "Click",
+        "target": [
+            622,
+            598,
+            20,
+            37
+        ],
+        "next": [
+            "实兵只领奖励.领参与奖励3"
+        ]
+    },
+    "实兵只领奖励.领参与奖励3": {
+        "action": "Click",
+        "target": [
+            99,
+            29,
+            38,
+            28
+        ],
+        "next": [
+            "实兵只领奖励.返回主页"
+        ]
+    },
+    "实兵只领奖励.无参与奖励": {
+        "action": "Click",
+        "target": [
+            99,
+            29,
+            38,
+            28
+        ],
+        "next": [
+            "实兵只领奖励.返回主页"
+        ]
+    },
+    "实兵只领奖励.返回主页": {
+        "recognition": "TemplateMatch",
+        "template": "返回主页2.png",
+        "roi": [
+            86,
+            6,
+            70,
+            72
+        ],
+        "action": "Click"
+    }
+}
